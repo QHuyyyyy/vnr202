@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 import { SectionHeading } from '../ui/SectionHeading'
 
-const contextImage =
-    'https://lh3.googleusercontent.com/aida-public/AB6AXuCd_Wg3AppOAAiC2cFuc-q69ofRZVHhsLzno0iUb8n-K3U4U5kLKTD55TrUGFXKOdOknLVJ_FWc4OG3M2QKQdDWw9OpArX_lr5Sb28MYDibw3taCXadwcTPLS8rMbAfm0BSXX2nD-fQAFCGabFhvUecD8rP9wb1oacJifbsSDuMM-y4GEqkoKGTs9n6Bal6QHD2-u7JgaMigjNu-XlDVP5qa7Cf551rnDZLpeY6h2py05jkiNc5xkTPQ9IVs9dRcprBvOycjSz-Vmk'
+import contextImage from '../../assets/context.jpg'
 
 export function ContextSection() {
     return (

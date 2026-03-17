@@ -12,7 +12,11 @@ export function TimelineSection() {
                     subtitle="Từng bước chuẩn bị cho sự bùng nổ của Cách mạng Tháng Tám"
                 />
 
-                <div className="timeline-line relative mt-20">
+                <div className="relative mt-20">
+                    <div
+                        aria-hidden="true"
+                        className="pointer-events-none absolute bottom-0 left-5 top-0 z-0 w-px bg-primary/30 md:left-1/2 md:-translate-x-1/2"
+                    />
                     {timelineItems.map((item, idx) => {
                         const reverse = idx % 2 !== 0
 
@@ -30,7 +34,7 @@ export function TimelineSection() {
                                         <img
                                             src={item.image}
                                             alt={item.imageAlt}
-                                            className="rounded-eight border border-dark/5 shadow-md grayscale transition-transform duration-500 hover:scale-105"
+                                            className="h-80 w-full rounded-eight border border-dark/5 object-cover shadow-md grayscale transition-transform duration-500 hover:scale-105 md:h-[32rem]"
                                         />
                                     ) : (
                                         <div
@@ -62,7 +66,7 @@ export function TimelineSection() {
                                         <img
                                             src={item.image}
                                             alt={item.imageAlt}
-                                            className="rounded-eight border border-dark/5 shadow-md grayscale transition-transform duration-500 hover:scale-105"
+                                            className="h-80 w-full rounded-eight border border-dark/5 object-cover shadow-md grayscale transition-transform duration-500 hover:scale-105 md:h-[32rem]"
                                         />
                                     )}
                                 </div>

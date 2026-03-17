@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion'
-
-const conclusionImage =
-    'https://lh3.googleusercontent.com/aida-public/AB6AXuAMTDfO5gxiDNj5s_TM2SxIWOhYzxq6G5niTDPb0Rg4dtvDJn7HthWTRnCqIuuj_6BxhRNnnu4HSWQaIXngbHsKTnt_ywcS0Pvg0UvFh-YZ73WQT9DJlBfGtYR5PUP_jS_UjOPKIhWa9MKI0k1IPgOoE0cMNosQyx9LScfR8umb4z5avJ-abiIseJGcLrGxSqKDknC6vBOBLH-5r5t6FeHepqBynJEzLqa2VbY6VyQAHXjRUbs8uBIs7fwsse-2x7Plcz6gL1WlTtU'
+import conclusionImage from '../../assets/conclusion.png'
 
 export function ConclusionSection() {
     return (
