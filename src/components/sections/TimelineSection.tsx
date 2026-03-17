@@ -1,5 +1,5 @@
 import { AnimatePresence, LayoutGroup, motion } from 'framer-motion'
-import { useRef, useState, type WheelEvent } from 'react'
+import { useRef, useState } from 'react'
 import { timelineItems } from '../../data/timeline'
 import { SectionHeading } from '../ui/SectionHeading'
 
@@ -7,9 +7,10 @@ export function TimelineSection() {
     const [activeIndex, setActiveIndex] = useState<number | null>(null)
     const [slideDirection, setSlideDirection] = useState<1 | -1>(1)
     const detailRef = useRef<HTMLDivElement | null>(null)
-    const wheelLockRef = useRef(0)
+
 
     const activeItem = activeIndex === null ? null : timelineItems[activeIndex]
+    const isExtendedWidthPeriod = activeItem?.period === '1939-1945'
 
     const openDetail = (index: number) => {
         setSlideDirection(index >= (activeIndex ?? 0) ? 1 : -1)
@@ -31,22 +32,7 @@ export function TimelineSection() {
         }
     }
 
-    const handleDetailWheel = (event: WheelEvent<HTMLDivElement>) => {
-        if (activeIndex === null) {
-            return
-        }
 
-        const now = Date.now()
-        const isLocked = now - wheelLockRef.current < 420
-        const isSmallMove = Math.abs(event.deltaY) < 14
-        if (isLocked || isSmallMove) {
-            return
-        }
-
-        event.preventDefault()
-        wheelLockRef.current = now
-        changeActivePeriod(event.deltaY > 0 ? 1 : -1)
-    }
 
     return (
         <section id="timeline" className="overflow-hidden border-y border-dark/5 bg-surface py-24">
@@ -67,7 +53,6 @@ export function TimelineSection() {
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0, y: -18 }}
                                 transition={{ duration: 0.35, ease: 'easeOut' }}
-                                onWheel={handleDetailWheel}
                                 className="relative mt-16 ml-[calc(50%-50vw)] w-screen py-10"
                             >
                                 <div className="w-full px-6 md:px-10">
@@ -80,32 +65,31 @@ export function TimelineSection() {
                                                 aria-hidden="true"
                                             />
                                             <div className="relative grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6">
-                                    {timelineItems.map((item, idx) => {
-                                        const isActive = idx === activeIndex
+                                                {timelineItems.map((item, idx) => {
+                                                    const isActive = idx === activeIndex
 
-                                        return (
-                                            <button
-                                                key={item.period}
-                                                type="button"
-                                                onClick={() => openDetail(idx)}
-                                                className="flex flex-col items-center"
-                                                aria-label={`Chọn mốc ${item.period}`}
-                                            >
-                                                <span
-                                                    className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-white text-[10px] font-bold transition-all md:h-9 md:w-9 md:text-xs ${
-                                                        isActive
-                                                            ? 'scale-110 bg-primary text-white ring-4 ring-primary/25'
-                                                            : 'bg-gray-300 text-gray-600 ring-2 ring-primary/10'
-                                                    }`}
-                                                >
-                                                    {String(idx + 1).padStart(2, '0')}
-                                                </span>
-                                                <span className={`mt-2 text-[10px] font-bold uppercase md:text-xs ${isActive ? 'text-primary' : 'text-gray-500'}`}>
-                                                    {item.period}
-                                                </span>
-                                            </button>
-                                        )
-                                    })}
+                                                    return (
+                                                        <button
+                                                            key={item.period}
+                                                            type="button"
+                                                            onClick={() => openDetail(idx)}
+                                                            className="flex flex-col items-center"
+                                                            aria-label={`Chọn mốc ${item.period}`}
+                                                        >
+                                                            <span
+                                                                className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-white text-[10px] font-bold transition-all md:h-9 md:w-9 md:text-xs ${isActive
+                                                                    ? 'scale-110 bg-primary text-white ring-4 ring-primary/25'
+                                                                    : 'bg-gray-300 text-gray-600 ring-2 ring-primary/10'
+                                                                    }`}
+                                                            >
+                                                                {String(idx + 1).padStart(2, '0')}
+                                                            </span>
+                                                            <span className={`mt-2 text-[10px] font-bold uppercase md:text-xs ${isActive ? 'text-primary' : 'text-gray-500'}`}>
+                                                                {item.period}
+                                                            </span>
+                                                        </button>
+                                                    )
+                                                })}
                                             </div>
                                         </div>
 
@@ -119,50 +103,50 @@ export function TimelineSection() {
                                                 transition={{ duration: 0.42, ease: 'easeOut' }}
                                                 className="mt-8 space-y-8"
                                             >
-                                                <div>
-                                                    <div className="mb-4 flex items-center justify-between">
-                                                        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-primary">Tư liệu hình ảnh của mốc này</p>
-                                                    </div>
-                                                    <div className="grid gap-4 md:grid-cols-3">
-                                                        {activeItem.gallery.map((image, imageIndex) => (
-                                                            <div key={`${activeItem.period}-${imageIndex}`} className="group relative overflow-hidden rounded-eight border border-dark/10 shadow-md">
-                                                                <img
-                                                                    src={image}
-                                                                    alt={`${activeItem.imageAlt} ${imageIndex + 1}`}
-                                                                    className="h-52 w-full object-cover grayscale transition duration-500 group-hover:scale-105 md:h-64"
-                                                                />
-                                                                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent px-3 pb-3 pt-10">
-                                                                    <p className="text-[11px] font-semibold uppercase tracking-wider text-white">
-                                                                        {imageIndex === 0 ? activeItem.title : `Tư liệu ${activeItem.period} - ${imageIndex + 1}`}
-                                                                    </p>
-                                                                </div>
+                                                <div
+                                                    className={`mx-auto grid w-full gap-4 md:auto-rows-fr ${isExtendedWidthPeriod
+                                                        ? 'max-w-[1900px] md:grid-cols-[minmax(0,1.25fr)_minmax(0,1.25fr)]'
+                                                        : 'max-w-[1500px] md:grid-cols-2'
+                                                        }`}
+                                                >
+                                                    <div className="relative flex flex-col overflow-hidden rounded-eight border border-dark/10 bg-white p-6 md:p-8 order-1">
+                                                        <div className="pointer-events-none absolute -right-14 -top-14 h-44 w-44 rounded-full bg-primary/6" aria-hidden="true" />
+                                                        <div className="relative z-10">
+                                                            <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-primary md:text-xs">Giai đoạn {activeItem.period}</p>
+                                                            <h3 className="mt-2 font-serif text-2xl font-black leading-[1.1] text-dark md:mt-3 md:text-3xl text-balance">
+                                                                {activeItem.title}
+                                                            </h3>
+                                                            <div className="mt-4 space-y-3 text-sm leading-relaxed text-gray-700 md:mt-5 md:space-y-4 md:text-base">
+                                                                {activeItem.fullDescription.map((paragraph, paragraphIndex) => (
+                                                                    <p key={`${activeItem.period}-${paragraphIndex}`}>{paragraph}</p>
+                                                                ))}
                                                             </div>
-                                                        ))}
+                                                        </div>
                                                     </div>
-                                                </div>
 
-                                                <div className="relative mx-auto w-full max-w-6xl overflow-hidden rounded-eight border border-dark/10 bg-white p-6 md:p-10">
-                                                    <div className="pointer-events-none absolute -right-14 -top-14 h-44 w-44 rounded-full bg-primary/6" aria-hidden="true" />
-                                                    <p className="relative text-xs font-bold uppercase tracking-[0.25em] text-primary">Giai đoạn {activeItem.period}</p>
-                                                    <h3 className="relative mt-3 max-w-4xl font-serif text-4xl font-black leading-[1.08] text-dark md:text-6xl">
-                                                        {activeItem.title}
-                                                    </h3>
-                                                    <div className="relative mt-8 space-y-6 text-lg leading-relaxed text-gray-700 md:text-2xl">
-                                                        {activeItem.fullDescription.map((paragraph, paragraphIndex) => (
-                                                            <p key={`${activeItem.period}-${paragraphIndex}`}>{paragraph}</p>
-                                                        ))}
-                                                    </div>
-                                                    <div className="relative mt-8 border-t border-primary/15 pt-5">
-                                                        <p className="text-base italic leading-relaxed text-gray-500">
-                                                            Cuộn để chuyển mốc tiếp theo và tiếp tục khám phá diễn tiến lịch sử theo từng giai đoạn.
-                                                        </p>
-                                                    </div>
+                                                    {activeItem.gallery.slice(0, 3).map((image, imageIndex) => (
+                                                        <div
+                                                            key={`${activeItem.period}-${imageIndex}`}
+                                                            className={`group relative overflow-hidden rounded-eight border border-dark/10 shadow-md h-64 md:h-full ${imageIndex === 0 ? 'order-2' : imageIndex === 1 ? 'order-3' : 'order-4'
+                                                                }`}
+                                                        >
+                                                            <img
+                                                                src={image}
+                                                                alt={`${activeItem.imageAlt} ${imageIndex + 1}`}
+                                                                className="absolute inset-0 h-full w-full object-cover  transition duration-500 group-hover:scale-105 hover:grayscale-0 cursor-pointer"
+                                                            />
+                                                            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/80 to-transparent px-4 pb-4 pt-12">
+                                                                <p className="text-xs font-semibold uppercase tracking-wider text-white">
+                                                                    {imageIndex === 0 ? activeItem.title : `Tư liệu ${activeItem.period} - ${imageIndex + 1}`}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    ))}
                                                 </div>
                                             </motion.article>
                                         </AnimatePresence>
 
-                                        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-dark/10 pt-6">
-                                            <p className="text-sm font-medium text-gray-600">Cuộn chuột trong khung này để chuyển sang mốc trước hoặc mốc kế tiếp.</p>
+                                        <div className="mt-8 flex flex-wrap items-center justify-center gap-4 border-t border-dark/10 pt-6">
                                             <div className="flex items-center gap-3">
                                                 <button
                                                     type="button"
@@ -231,9 +215,8 @@ export function TimelineSection() {
                                                     />
                                                 ) : (
                                                     <div
-                                                        className={`rounded-eight bg-white p-8 shadow-sm transition-shadow hover:shadow-md ${
-                                                            reverse ? 'border-r-4 border-primary' : 'border-l-4 border-primary'
-                                                        }`}
+                                                        className={`rounded-eight bg-white p-8 shadow-sm transition-shadow hover:shadow-md ${reverse ? 'border-r-4 border-primary' : 'border-l-4 border-primary'
+                                                            }`}
                                                     >
                                                         <span className="mb-2 block text-xl font-bold text-primary">{item.period}</span>
                                                         <h3 className="mb-4 text-2xl font-bold text-dark">{item.title}</h3>
@@ -261,9 +244,8 @@ export function TimelineSection() {
                                             <div className={`md:w-5/12 ${reverse ? 'order-2 md:order-3 mt-8 md:mt-0' : 'order-3'}`}>
                                                 {reverse ? (
                                                     <div
-                                                        className={`rounded-eight bg-white p-8 shadow-sm transition-shadow hover:shadow-md ${
-                                                            reverse ? 'border-r-4 border-primary' : 'border-l-4 border-primary'
-                                                        }`}
+                                                        className={`rounded-eight bg-white p-8 shadow-sm transition-shadow hover:shadow-md ${reverse ? 'border-r-4 border-primary' : 'border-l-4 border-primary'
+                                                            }`}
                                                     >
                                                         <span className="mb-2 block text-xl font-bold text-primary">{item.period}</span>
                                                         <h3 className="mb-4 text-2xl font-bold text-dark">{item.title}</h3>

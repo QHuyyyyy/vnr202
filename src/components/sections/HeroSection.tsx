@@ -23,7 +23,7 @@ export function HeroSection() {
                     Trang Lịch Sử Việt Nam
                 </span>
 
-                <h1 className="mb-8 mt-6 font-serif text-5xl font-black uppercase leading-[1.05] text-dark drop-shadow-sm md:text-6xl lg:text-7xl">
+                <h1 className="mb-8 mt-6 font-serif text-5xl font-black uppercase leading-[1] md:leading-[1.1] lg:leading-[1.2] text-dark drop-shadow-sm md:text-6xl lg:text-7xl">
                     Sự Ra Đời Và Lãnh Đạo Đấu Tranh
                     <br />
                     <span className="text-primary italic">Giành Chính Quyền</span>
