@@ -313,7 +313,6 @@ export function QuickQuiz() {
                 {currentQuestion.answers.map((answer, i) => {
                   const letters = ['A', 'B', 'C', 'D']
                   const isSelected = selectedAnswer?.text === answer.text
-                  const isWrong = isSelected && !answer.isCorrect
                   const isCorrect = isSelected && answer.isCorrect
 
                   let borderClass = 'border-dark/10'
