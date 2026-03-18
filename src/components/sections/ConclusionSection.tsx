@@ -24,12 +24,15 @@ export function ConclusionSection() {
                         <h2 className="mb-6 font-serif text-3xl font-bold text-primary md:text-5xl">Ý Nghĩa Lịch Sử</h2>
                         <div className="space-y-6 text-lg leading-relaxed text-dark">
                             <p>
-                                Thắng lợi của Cách mạng Tháng Tám năm 1945 là kết quả của quá trình chuẩn bị lâu dài, bền bỉ dưới sự
-                                lãnh đạo tài tình của Đảng Cộng sản Việt Nam và Chủ tịch Hồ Chí Minh.
+                                Thắng lợi của Cách mạng Tháng Tám và đỉnh cao là thắng lợi của cuộc kháng chiến chống Mỹ, cứu nước năm 1975 là kết quả của quá trình lãnh đạo đúng đắn, lâu dài của Đảng Cộng sản Việt Nam.
+                                <br />
+                                Sự nghiệp cách mạng trong giai đoạn 1930–1975 đã:
+                                Đập tan ách thống trị của thực dân, phong kiến và đế quốc.
+                                Giành và giữ vững chính quyền, bảo vệ thành quả cách mạng.
+                                Hoàn thành sự nghiệp giải phóng dân tộc, thống nhất đất nước qua Chiến tranh Việt Nam.
                             </p>
                             <p className="border-l-4 border-primary pl-4 font-bold text-gray-800">
-                                Sự kiện này đã phá tan xiềng xích thực dân, phong kiến, mở ra một kỷ nguyên mới - kỷ nguyên Độc lập, Tự
-                                do cho dân tộc Việt Nam.
+                                Qua đó, mở ra một kỷ nguyên mới cho dân tộc Việt Nam: kỷ nguyên độc lập, tự do và thống nhất đất nước, tiến lên xây dựng chủ nghĩa xã hội
                             </p>
                         </div>
 

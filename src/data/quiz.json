@@ -2,60 +2,36 @@
     "chapters": [
         {
             "chapter_id": 1,
-            "chapter_name": "Sự Ra Đời của Đảng và Cao Trào Cách Mạng 1930–1931",
-            "description": "Tập trung vào bối cảnh thành lập Đảng và phong trào Xô viết Nghệ - Tĩnh",
+            "chapter_name": "Giai đoạn 1930–1931: Sự ra đời của Đảng và cao trào cách mạng đầu tiên",
+            "description": "Sự kiện thành lập Đảng và phong trào Xô viết Nghệ - Tĩnh",
             "questions": [
                 {
                     "id": 1,
-                    "question": "Sự ra đời của Đảng Cộng sản Việt Nam vào đầu năm 1930 có ý nghĩa gì đối với dân tộc?",
+                    "question": "Hội nghị hợp nhất các tổ chức Cộng sản diễn ra vào thời gian nào?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Mở đầu thời kỳ Bắc thuộc lần thứ hai",
+                            "text": "A. Từ ngày 3 đến 7-2-1929",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Chấm dứt cuộc khủng hoảng về đường lối cứu nước và giai cấp lãnh đạo",
+                            "text": "B. Từ ngày 3 đến 7-2-1930",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Đánh dấu sự kết thúc của chế độ phong kiến",
+                            "text": "C. Ngày 19-5-1930",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Thành lập ngay lập tức nước Việt Nam Dân chủ Cộng hòa",
+                            "text": "D. Tháng 10-1930",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Việc Đảng ra đời đã chấm dứt tình trạng khủng hoảng về đường lối và lực lượng lãnh đạo kéo dài nhiều năm [1], [2]."
+                    "explanation": "Hội nghị thành lập Đảng diễn ra từ ngày 3 đến 7-2-1930 tại Hương Cảng [1]."
                 },
                 {
                     "id": 2,
-                    "question": "Hội nghị hợp nhất các tổ chức cộng sản (tháng 2/1930) diễn ra tại đâu?",
-                    "difficulty": "easy",
-                    "options": [
-                        {
-                            "text": "A. Cao Bằng",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Ma Cao (Trung Quốc)",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. Hương Cảng (Trung Quốc)",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "D. Hà Nội",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Hội nghị thành lập Đảng được tổ chức tại Hương Cảng dưới sự chủ trì của Nguyễn Ái Quốc [3], [4]."
-                },
-                {
-                    "id": 3,
-                    "question": "Ai là người chủ trì Hội nghị hợp nhất các tổ chức cộng sản năm 1930?",
+                    "question": "Ai là người chủ trì Hội nghị hợp nhất các tổ chức Cộng sản đầu năm 1930?",
                     "difficulty": "easy",
                     "options": [
                         {
@@ -63,71 +39,47 @@
                             "is_correct": false
                         },
                         {
-                            "text": "B. Nguyễn Ái Quốc",
+                            "text": "B. Lê Hồng Phong",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Nguyễn Ái Quốc",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Lê Hồng Phong",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Võ Nguyên Giáp",
+                            "text": "D. Hà Huy Tập",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Nguyễn Ái Quốc là người trực tiếp chủ trì hội nghị quan trọng này [3], [4]."
+                    "explanation": "Hội nghị hợp nhất được tổ chức dưới sự chủ trì của đồng chí Nguyễn Ái Quốc [1]."
+                },
+                {
+                    "id": 3,
+                    "question": "Mục tiêu cơ bản của cách mạng Việt Nam được xác định tại Hội nghị thành lập Đảng là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đòi tự do, dân chủ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Đánh đổ đế quốc và phong kiến",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Cải cách ruộng đất",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Hòa bình và cơm áo",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Mục tiêu cơ bản là đánh đổ đế quốc và phong kiến, thực hiện độc lập dân tộc [1]."
                 },
                 {
                     "id": 4,
-                    "question": "Các văn kiện quan trọng nào được thông qua tại Hội nghị thành lập Đảng?",
-                    "difficulty": "medium",
-                    "options": [
-                        {
-                            "text": "A. Luận cương chính trị",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Chánh cương vắn tắt và Sách lược vắn tắt",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. Chương trình hành động của Đảng",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Chỉ thị Nhật - Pháp bắn nhau",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Hội nghị đã thông qua Chánh cương vắn tắt và Sách lược vắn tắt để xác định mục tiêu cách mạng [3]."
-                },
-                {
-                    "id": 5,
-                    "question": "Mục tiêu cơ bản của cách mạng Việt Nam được xác định năm 1930 là gì?",
-                    "difficulty": "medium",
-                    "options": [
-                        {
-                            "text": "A. Đánh đổ đế quốc và phong kiến, thực hiện độc lập dân tộc",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "B. Chỉ tập trung đánh đổ giai cấp tư sản",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. Cải cách ruộng đất là nhiệm vụ duy nhất",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Hợp tác với thực dân Pháp để đòi dân sinh",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Đảng xác định mục tiêu là đánh đổ đế quốc và phong kiến để giành độc lập [3]."
-                },
-                {
-                    "id": 6,
-                    "question": "Phong trào cách mạng nào là đỉnh cao của giai đoạn 1930–1931?",
+                    "question": "Đỉnh cao của phong trào cách mạng 1930–1931 là phong trào nào?",
                     "difficulty": "easy",
                     "options": [
                         {
@@ -135,23 +87,23 @@
                             "is_correct": false
                         },
                         {
-                            "text": "B. Xô viết Nghệ - Tĩnh",
+                            "text": "B. Nam Kỳ khởi nghĩa",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Xô viết Nghệ - Tĩnh",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Phá kho thóc Nhật",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Nam Kỳ khởi nghĩa",
+                            "text": "D. Đồng khởi",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Xô viết Nghệ - Tĩnh là đỉnh cao của phong trào 1930-1931 với sự phối hợp của công - nông [3], [5]."
+                    "explanation": "Đỉnh cao của phong trào 1930-1931 là Xô viết Nghệ - Tĩnh [2]."
                 },
                 {
-                    "id": 7,
-                    "question": "Lần đầu tiên khối liên minh nào được hình thành trong phong trào 1930–1931?",
+                    "id": 5,
+                    "question": "Liên minh nào lần đầu tiên được hình thành trong phong trào 1930–1931?",
                     "difficulty": "medium",
                     "options": [
                         {
@@ -159,23 +111,47 @@
                             "is_correct": true
                         },
                         {
-                            "text": "B. Liên minh Công - Thương",
+                            "text": "B. Liên minh Công - Nông - Trí",
                             "is_correct": false
                         },
                         {
-                            "text": "C. Liên minh Sĩ phu - Nông dân",
+                            "text": "C. Mặt trận Việt Minh",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Liên minh Trí thức - Tiểu tư sản",
+                            "text": "D. Mặt trận Dân chủ",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Phong trào này đánh dấu sự hình thành lần đầu tiên của liên minh công – nông [3]."
+                    "explanation": "Phong trào đã lần đầu tiên hình thành liên minh công – nông trong đấu tranh [2]."
                 },
                 {
-                    "id": 8,
-                    "question": "Hội nghị Trung ương lần thứ nhất (10/1930) đã đổi tên Đảng thành gì?",
+                    "id": 6,
+                    "question": "Văn kiện nào do Trần Phú dự thảo được thông qua vào tháng 10-1930?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Chính cương vắn tắt",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Sách lược vắn tắt",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Luận cương chính trị",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Chương trình hành động",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Tháng 10/1930, Hội nghị Trung ương thông qua Luận cương chính trị do Trần Phú dự thảo [3]."
+                },
+                {
+                    "id": 7,
+                    "question": "Tháng 10-1930, Đảng Cộng sản Việt Nam đổi tên thành gì?",
                     "difficulty": "easy",
                     "options": [
                         {
@@ -183,82 +159,106 @@
                             "is_correct": false
                         },
                         {
-                            "text": "B. Đảng Cộng sản Việt Nam",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. Đảng Cộng sản Đông Dương",
+                            "text": "B. Đảng Cộng sản Đông Dương",
                             "is_correct": true
                         },
                         {
-                            "text": "D. Hội Việt Nam Cách mạng Thanh niên",
+                            "text": "C. Mặt trận Việt Minh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Đảng Dân chủ Việt Nam",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Tháng 10/1930, Hội nghị Trung ương quyết định đổi tên Đảng thành Đảng Cộng sản Đông Dương [3]."
+                    "explanation": "Hội nghị tháng 10/1930 quyết định đổi tên Đảng thành Đảng Cộng sản Đông Dương [3]."
                 },
                 {
-                    "id": 9,
-                    "question": "Ai là người dự thảo Luận cương chính trị tháng 10/1930?",
-                    "difficulty": "easy",
-                    "options": [
-                        {
-                            "text": "A. Nguyễn Ái Quốc",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Trần Phú",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. Lê Duẩn",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Trường Chinh",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Trần Phú là người dự thảo bản Luận cương chính trị thông qua vào tháng 10/1930 [3]."
-                },
-                {
-                    "id": 10,
-                    "question": "Nội dung nào sau đây KHÔNG phải ý nghĩa của phong trào Xô viết Nghệ - Tĩnh?",
+                    "id": 8,
+                    "question": "Ý nghĩa quan trọng nhất của phong trào Xô viết Nghệ - Tĩnh đối với Đảng là gì?",
                     "difficulty": "hard",
                     "options": [
                         {
-                            "text": "A. Khẳng định quyền lãnh đạo của Đảng",
+                            "text": "A. Giành được chính quyền toàn tỉnh",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Xuất hiện hình thức chính quyền cách mạng sơ khai",
+                            "text": "B. Chia được ruộng đất cho dân nghèo",
                             "is_correct": false
                         },
                         {
-                            "text": "C. Để lại bài học về tổ chức quần chúng",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Giành được độc lập hoàn toàn cho dân tộc",
+                            "text": "C. Khẳng định năng lực và quyền lãnh đạo của Đảng",
                             "is_correct": true
+                        },
+                        {
+                            "text": "D. Buộc Pháp phải ký hiệp định",
+                            "is_correct": false
                         }
                     ],
-                    "explanation": "Phong trào Xô viết Nghệ - Tĩnh chưa giành được độc lập hoàn toàn nhưng đã khẳng định năng lực lãnh đạo của Đảng [3]."
+                    "explanation": "Phong trào khẳng định năng lực lãnh đạo và quyền lãnh đạo của Đảng đối với cách mạng [2]."
+                },
+                {
+                    "id": 9,
+                    "question": "Hình thức chính quyền cách mạng sơ khai của nhân dân trong phong trào 1930-1931 là?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Chính phủ lâm thời",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Xô viết",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Ủy ban nhân dân",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Hội đồng nhân dân",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Xuất hiện hình thức chính quyền cách mạng sơ khai mang tên Xô viết [2]."
+                },
+                {
+                    "id": 10,
+                    "question": "Địa điểm diễn ra Hội nghị thành lập Đảng ở đâu?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Ma Cao (Trung Quốc)",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Quảng Châu (Trung Quốc)",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Cửu Long (Hồng Kông, Trung Quốc)",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Hà Nội (Việt Nam)",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Hội nghị diễn ra tại Cửu Long (Hồng Kông, Trung Quốc) [1]."
                 }
             ]
         },
         {
             "chapter_id": 2,
-            "chapter_name": "Đấu Tranh Phục Hồi và Cao Trào Dân Chủ 1932–1939",
-            "description": "Các giai đoạn khôi phục tổ chức và đấu tranh đòi quyền dân chủ",
+            "chapter_name": "Giai đoạn 1932–1935: Đấu tranh khôi phục tổ chức và phong trào",
+            "description": "Thời kỳ vượt qua khủng bố trắng và củng cố hệ thống tổ chức",
             "questions": [
                 {
-                    "id": 11,
-                    "question": "Thực dân Pháp thực hiện chính sách gì để đàn áp cách mạng sau năm 1931?",
+                    "id": 1,
+                    "question": "Sau cao trào 1930–1931, thực dân Pháp đã thực hiện chính sách gì?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Cải cách chính trị",
+                            "text": "A. Kháng chiến và kiến quốc",
                             "is_correct": false
                         },
                         {
@@ -266,55 +266,103 @@
                             "is_correct": true
                         },
                         {
-                            "text": "C. Nới lỏng kiểm soát",
+                            "text": "C. Cải cách dân chủ",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Khuyến khích dân chủ",
+                            "text": "D. Mở cửa kinh tế",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Thực dân Pháp đã tiến hành chính sách 'khủng bố trắng' để tiêu diệt phong trào cách mạng [6], [7]."
+                    "explanation": "Sau 1930-1931, thực dân Pháp tiến hành chính sách “khủng bố trắng” để đàn áp cách mạng [3]."
                 },
                 {
-                    "id": 12,
-                    "question": "Các đảng viên bị bắt đã biến nơi nào thành 'trường học cách mạng'?",
+                    "id": 2,
+                    "question": "Các đảng viên bị giam cầm đã biến nhà tù thành nơi như thế nào?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Các đồn điền cao su",
+                            "text": "A. Nơi sản xuất vũ khí",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Các nhà máy xí nghiệp",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. Nhà tù thực dân",
+                            "text": "B. Trường học cách mạng",
                             "is_correct": true
                         },
                         {
-                            "text": "D. Các vùng nông thôn hẻo lánh",
+                            "text": "C. Nơi đàm phán với Pháp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Khu giải phóng sơ khai",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Trong nhà tù, các đảng viên vẫn kiên cường biến nhà tù thành trường học để truyền bá tư tưởng [6]."
+                    "explanation": "Các đảng viên cộng sản biến nhà tù thành trường học cách mạng để truyền bá tư tưởng [4]."
                 },
                 {
-                    "id": 13,
-                    "question": "Đại hội đại biểu lần thứ I của Đảng (3/1935) diễn ra tại đâu?",
+                    "id": 3,
+                    "question": "Văn kiện nào được Đảng đề ra năm 1932 để khôi phục phong trào?",
                     "difficulty": "medium",
                     "options": [
                         {
-                            "text": "A. Cao Bằng",
+                            "text": "A. Luận cương chính trị",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Ma Cao (Trung Quốc)",
+                            "text": "B. Sách lược vắn tắt",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chương trình hành động",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Quảng Châu (Trung Quốc)",
+                            "text": "D. Chính cương Đảng Lao động",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Năm 1932, Đảng đề ra Chương trình hành động nhằm khôi phục hệ thống tổ chức [4]."
+                },
+                {
+                    "id": 4,
+                    "question": "Đại hội đại biểu lần thứ I của Đảng được tổ chức vào thời gian nào?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Tháng 2-1930",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tháng 10-1930",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Tháng 3-1935",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Tháng 5-1941",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đại hội đại biểu lần thứ I của Đảng được tổ chức vào tháng 3 năm 1935 [4]."
+                },
+                {
+                    "id": 5,
+                    "question": "Đại hội lần thứ I (1935) diễn ra tại địa điểm nào?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Hương Cảng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Ma Cao",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Thượng Hải",
                             "is_correct": false
                         },
                         {
@@ -322,59 +370,234 @@
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Đại hội lần thứ I của Đảng được tổ chức tại Ma Cao vào tháng 3/1935 [6], [8]."
+                    "explanation": "Đại hội đại biểu lần thứ I của Đảng diễn ra tại Ma Cao [4]."
                 },
                 {
-                    "id": 14,
-                    "question": "Sự kiện nào đánh dấu hệ thống tổ chức Đảng đã được phục hồi vào năm 1935?",
-                    "difficulty": "medium",
+                    "id": 6,
+                    "question": "Sự kiện nào đánh dấu sự phục hồi hệ thống tổ chức Đảng từ Trung ương đến địa phương?",
+                    "difficulty": "hard",
                     "options": [
                         {
-                            "text": "A. Sự ra đời của Mặt trận Việt Minh",
+                            "text": "A. Hội nghị thành lập Đảng",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Đại hội đại biểu lần thứ I của Đảng",
+                            "text": "B. Phong trào 1936-1939",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Đại hội đại biểu lần thứ I (1935)",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Cuộc bãi công của công nhân Ba Son",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Thành lập Đội Cứu quốc quân",
+                            "text": "D. Hội nghị Trung ương 8",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Đại hội I đánh dấu sự phục hồi hệ thống tổ chức Đảng từ Trung ương đến địa phương [6], [8]."
+                    "explanation": "Đại hội I đánh dấu sự phục hồi của hệ thống tổ chức Đảng [4]."
                 },
                 {
-                    "id": 15,
-                    "question": "Nhiệm vụ trước mắt của Đảng trong giai đoạn 1936–1939 là gì?",
-                    "difficulty": "medium",
+                    "id": 7,
+                    "question": "Hệ thống tổ chức Đảng giai đoạn 1932 bị tổn thất do nguyên nhân chính nào?",
+                    "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Tổng khởi nghĩa giành chính quyền",
+                            "text": "A. Thiếu kinh phí hoạt động",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Chống phát xít, chống chiến tranh, đòi tự do, dân chủ, cơm áo, hòa bình",
+                            "text": "B. Sự đàn áp, khủng bố của Pháp",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Cải cách ruộng đất trên toàn quốc",
+                            "text": "C. Do Đảng tự giải tán",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Đánh đuổi hoàn toàn thực dân Pháp",
+                            "text": "D. Do tranh chấp nội bộ",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Giai đoạn này Đảng tập trung vào đấu tranh đòi các quyền dân sinh, dân chủ cơ bản [9], [10]."
+                    "explanation": "Chính sách “khủng bố trắng” khiến hệ thống tổ chức bị tổn thất nghiêm trọng [3]."
                 },
                 {
-                    "id": 16,
-                    "question": "Mặt trận nào được thành lập trong giai đoạn 1936–1939?",
+                    "id": 8,
+                    "question": "Nhà tù nào KHÔNG được nhắc đến là nơi giam cầm đảng viên thời kỳ này?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Côn Đảo",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Sơn La",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Buôn Ma Thuột",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Hỏa Lò",
+                            "is_correct": true
+                        }
+                    ],
+                    "explanation": "Tài liệu nhắc đến Côn Đảo, Sơn La, Buôn Ma Thuột; Hỏa Lò không được liệt kê cụ thể trong đoạn này [3]."
+                },
+                {
+                    "id": 9,
+                    "question": "Năm 1932, Đảng đề ra Chương trình hành động nhằm mục đích gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Khởi nghĩa giành chính quyền",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Khôi phục hệ thống tổ chức và phong trào",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Đổi tên Đảng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Thành lập mặt trận Việt Minh",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Chương trình hành động năm 1932 nhằm khôi phục tổ chức và gây dựng lại phong trào [4]."
+                },
+                {
+                    "id": 10,
+                    "question": "Tình trạng của phong trào cách mạng sau năm 1931 là gì?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Phát triển mạnh mẽ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tạm thời lắng xuống do bị đàn áp",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Chuyển sang đấu tranh vũ trang",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Giành được thắng lợi hoàn toàn",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Sau 1930-1931, phong trào bị tổn thất nghiêm trọng do chính sách khủng bố [3]."
+                }
+            ]
+        },
+        {
+            "chapter_id": 3,
+            "chapter_name": "Giai đoạn 1936–1939: Cao trào đấu tranh dân chủ",
+            "description": "Đấu tranh đòi tự do, dân chủ, cơm áo và hòa bình",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Bối cảnh thế giới tác động đến chiến lược của Đảng năm 1936 là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Chiến tranh thế giới thứ nhất kết thúc",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Chủ nghĩa phát xít trỗi dậy và nguy cơ chiến tranh",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Cách mạng Tháng Mười Nga thành công",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Liên Xô sụp đổ",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Tình hình chủ nghĩa phát xít trỗi dậy và nguy cơ chiến tranh khiến Đảng điều chỉnh chiến lược [5]."
+                },
+                {
+                    "id": 2,
+                    "question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 7-1936 họp tại đâu?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Ma Cao",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Thượng Hải",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Hương Cảng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Pác Bó",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Tháng 7-1936, Hội nghị Trung ương Đảng họp tại Thượng Hải [5]."
+                },
+                {
+                    "id": 3,
+                    "question": "Mục tiêu chủ yếu trước mắt của cách mạng giai đoạn 1936–1939 là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đánh đổ toàn bộ thực dân Pháp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Chống phát xít, chiến tranh, đòi tự do, dân chủ, cơm áo",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Giành độc lập dân tộc hoàn toàn",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Cải cách ruộng đất toàn diện",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Mục tiêu trước mắt là chống chế độ thuộc địa, phát xít, chiến tranh, đòi tự do, dân chủ, cơm áo, hòa bình [5]."
+                },
+                {
+                    "id": 4,
+                    "question": "Hình thức đấu tranh nào được Đảng sử dụng linh hoạt trong giai đoạn 1936–1939?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Chỉ đấu tranh bí mật",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Chỉ đấu tranh vũ trang",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Công khai, nửa công khai, hợp pháp và nửa hợp pháp",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Tổng khởi nghĩa trên cả nước",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng chủ trương sử dụng các hình thức công khai, nửa công khai, hợp pháp và nửa hợp pháp [5]."
+                },
+                {
+                    "id": 5,
+                    "question": "Tên mặt trận được thành lập vào tháng 3-1938 là gì?",
                     "difficulty": "medium",
                     "options": [
                         {
@@ -386,126 +609,174 @@
                             "is_correct": true
                         },
                         {
-                            "text": "C. Mặt trận Tổ quốc Việt Nam",
+                            "text": "C. Mặt trận Tổ quốc",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Hội Phản đế đồng minh",
+                            "text": "D. Hội Phản đế",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Mặt trận Dân chủ Đông Dương được thành lập nhằm tập hợp mọi lực lượng yêu nước [9], [10]."
+                    "explanation": "Mặt trận Dân chủ Đông Dương được thành lập vào tháng 3-1938 [6]."
                 },
                 {
-                    "id": 17,
-                    "question": "Hình thức đấu tranh nào được sử dụng trong giai đoạn 1936–1939?",
+                    "id": 6,
+                    "question": "Mặt trận Dân chủ Đông Dương được thành lập nhằm mục đích gì?",
                     "difficulty": "hard",
                     "options": [
                         {
-                            "text": "A. Chỉ đấu tranh vũ trang bí mật",
+                            "text": "A. Tiến hành khởi nghĩa vũ trang",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Chỉ đấu tranh nghị trường",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. Kết hợp công khai, nửa công khai, hợp pháp và nửa hợp pháp",
+                            "text": "B. Liên hiệp nhân dân chống phát xít và chế độ thuộc địa phản động",
                             "is_correct": true
                         },
                         {
-                            "text": "D. Bạo động vũ trang trên quy mô lớn",
+                            "text": "C. Xây dựng quân đội chính quy",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Thực hiện cải cách ruộng đất",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Đảng đã linh hoạt sử dụng các hình thức đấu tranh công khai và hợp pháp kết hợp bí mật [9]."
+                    "explanation": "Mặt trận nhằm liên hiệp các tầng lớp nhân dân chống phát xít và chế độ thuộc địa phản động [6]."
                 },
                 {
-                    "id": 18,
-                    "question": "Hoạt động 'thu thập dân nguyện' thuộc giai đoạn cách mạng nào?",
-                    "difficulty": "medium",
+                    "id": 7,
+                    "question": "Hoạt động đấu tranh nào tiêu biểu trong giai đoạn 1936-1939?",
+                    "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. 1930 - 1931",
+                            "text": "A. Khởi nghĩa giành chính quyền",
                             "is_correct": false
                         },
                         {
-                            "text": "B. 1936 - 1939",
+                            "text": "B. Thu thập “dân nguyện”, báo chí, mít tinh",
                             "is_correct": true
                         },
                         {
-                            "text": "C. 1939 - 1945",
+                            "text": "C. Đánh chiếm các đồn binh Pháp",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Sau năm 1945",
+                            "text": "D. Phá kho thóc Nhật",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Đây là một trong những hoạt động đấu tranh tiêu biểu của cao trào dân chủ 1936-1939 [11]."
+                    "explanation": "Các hoạt động tiêu biểu gồm mít tinh, biểu tình, thu thập “dân nguyện”, báo chí tuyên truyền [6]."
                 },
                 {
-                    "id": 19,
-                    "question": "Mục đích chính của việc Đảng tham gia đấu tranh nghị trường (1936-1939) là gì?",
+                    "id": 8,
+                    "question": "Trong giai đoạn 1936-1939, Đảng có tham gia hình thức đấu tranh nào mới?",
                     "difficulty": "hard",
                     "options": [
                         {
-                            "text": "A. Để giành ghế trong chính phủ thực dân",
+                            "text": "A. Đấu tranh ngoại giao",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Mở rộng tuyên truyền và khẳng định vai trò lãnh đạo",
+                            "text": "B. Đấu tranh nghị trường thông qua bầu cử",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Kết thúc hoàn toàn ách thống trị của Pháp",
+                            "text": "C. Đấu tranh quân sự trên quy mô lớn",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Thành lập chính phủ liên hiệp",
+                            "text": "D. Tấn công kinh tế",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Tham gia đấu tranh nghị trường giúp Đảng tập hợp lực lượng chính trị đông đảo và khẳng định vai trò của mình [11]."
+                    "explanation": "Đảng tham gia đấu tranh nghị trường qua các cuộc tranh cử vào Viện dân biểu [6]."
                 },
                 {
-                    "id": 20,
-                    "question": "Giai đoạn 1936-1939 đã chuẩn bị gì cho các giai đoạn sau?",
+                    "id": 9,
+                    "question": "Thành quả quan trọng về lực lượng của giai đoạn 1936-1939 là gì?",
                     "difficulty": "medium",
                     "options": [
                         {
-                            "text": "A. Một đội quân vũ trang tinh nhuệ",
+                            "text": "A. Thành lập quân đội nhân dân",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Lực lượng chính trị đông đảo của quần chúng",
+                            "text": "B. Tập hợp được lực lượng chính trị đông đảo",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Các căn cứ địa vững chắc tại đô thị",
+                            "text": "C. Giải phóng được nhiều vùng nông thôn",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Hệ thống vũ khí hiện đại",
+                            "text": "D. Thành lập chính phủ chính thức",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Qua đấu tranh, Đảng đã tập hợp được lực lượng chính trị từ nhiều tầng lớp xã hội [11]."
+                    "explanation": "Đảng đã tập hợp được một lực lượng chính trị đông đảo từ nhiều tầng lớp xã hội [6]."
+                },
+                {
+                    "id": 10,
+                    "question": "Chủ trương của Đảng trong giai đoạn 1936-1939 có đặc điểm gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đưa giải phóng dân tộc lên hàng đầu ngay lập tức",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Điều chỉnh chiến lược linh hoạt, đề cao tự do dân chủ",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Chỉ tập trung vào công nhân nông dân",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Ngừng mọi hoạt động bí mật",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng kịp thời điều chỉnh chiến lược và phương pháp đấu tranh mới phù hợp tình hình [5]."
                 }
             ]
         },
         {
-            "chapter_id": 3,
-            "chapter_name": "Chuyển Hướng Chiến Lược và Cách Mạng Tháng Tám 1939–1945",
-            "description": "Nhiệm vụ giải phóng dân tộc và thắng lợi của Tổng khởi nghĩa",
+            "chapter_id": 4,
+            "chapter_name": "Giai đoạn 1939–1945: Chuyển hướng chiến lược và chuẩn bị khởi nghĩa",
+            "description": "Giải phóng dân tộc là nhiệm vụ hàng đầu và thắng lợi Tháng Tám",
             "questions": [
                 {
-                    "id": 21,
-                    "question": "Nhiệm vụ nào được Đảng xác định là hàng đầu khi Chiến tranh thế giới II bùng nổ?",
+                    "id": 1,
+                    "question": "Sự kiện nào đánh dấu sự chuyển hướng chiến lược cách mạng của Đảng cuối năm 1939?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Cải cách ruộng đất",
+                            "text": "A. Nhật đảo chính Pháp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Chiến tranh thế giới thứ hai bùng nổ",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Bác Hồ về nước",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Thành lập quân đội",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Khi Chiến tranh thế giới thứ hai bùng nổ, Đảng kịp thời chuyển hướng chiến lược [7]."
+                },
+                {
+                    "id": 2,
+                    "question": "Nhiệm vụ hàng đầu được Đảng xác định từ năm 1939 là gì?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Đòi quyền dân chủ",
                             "is_correct": false
                         },
                         {
@@ -513,19 +784,19 @@
                             "is_correct": true
                         },
                         {
-                            "text": "C. Xây dựng kinh tế",
+                            "text": "C. Cải cách ruộng đất",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Đấu tranh đòi dân sinh",
+                            "text": "D. Chống phát xít quốc tế",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Đảng đã kịp thời xác định nhiệm vụ giải phóng dân tộc là nhiệm vụ hàng đầu [11], [12]."
+                    "explanation": "Đảng xác định nhiệm vụ giải phóng dân tộc là nhiệm vụ hàng đầu [7]."
                 },
                 {
-                    "id": 22,
-                    "question": "Hội nghị nào đã hoàn chỉnh đường lối giải phóng dân tộc của Đảng?",
+                    "id": 3,
+                    "question": "Hội nghị quan trọng nào đã hoàn chỉnh đường lối giải phóng dân tộc vào tháng 5-1941?",
                     "difficulty": "medium",
                     "options": [
                         {
@@ -537,207 +808,1171 @@
                             "is_correct": false
                         },
                         {
-                            "text": "C. Hội nghị Trung ương 8 (5/1941)",
+                            "text": "C. Hội nghị Trung ương 8",
                             "is_correct": true
                         },
                         {
-                            "text": "D. Hội nghị Trung ương 1",
+                            "text": "D. Đại hội I",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Hội nghị Trung ương 8 (5/1941) do Nguyễn Ái Quốc chủ trì đã hoàn chỉnh đường lối này [11]."
+                    "explanation": "Hội nghị Trung ương 8 (5/1941) đã hoàn chỉnh đường lối cách mạng giải phóng dân tộc [7]."
                 },
                 {
-                    "id": 23,
-                    "question": "Mặt trận Việt Minh được thành lập vào năm nào?",
-                    "difficulty": "easy",
-                    "options": [
-                        {
-                            "text": "A. 1930",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. 1935",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "C. 1941",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "D. 1945",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Mặt trận Việt Minh được quyết định thành lập tại Hội nghị Trung ương 8 năm 1941 [11], [12]."
-                },
-                {
-                    "id": 24,
-                    "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập ngày nào?",
-                    "difficulty": "easy",
-                    "options": [
-                        {
-                            "text": "A. 19/08/1945",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. 22/12/1944",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. 02/09/1945",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. 03/02/1930",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Đây là tiền thân của Quân đội nhân dân Việt Nam, thành lập ngày 22/12/1944 [13]."
-                },
-                {
-                    "id": 25,
-                    "question": "Chỉ thị 'Nhật - Pháp bắn nhau và hành động của chúng ta' ra đời sau sự kiện nào?",
+                    "id": 4,
+                    "question": "Mặt trận Việt Minh (Việt Nam Độc lập Đồng minh) được thành lập khi nào?",
                     "difficulty": "medium",
                     "options": [
                         {
-                            "text": "A. Pháp đầu hàng Đức",
+                            "text": "A. Năm 1930",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Nhật đảo chính Pháp (3/1945)",
+                            "text": "B. Năm 1938",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Năm 1941",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Nhật đầu hàng Đồng minh",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Thành lập Khu giải phóng Việt Bắc",
+                            "text": "D. Năm 1945",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Sau sự kiện Nhật đảo chính Pháp, Đảng đã ra chỉ thị này để phát động cao trào kháng Nhật [13]."
+                    "explanation": "Hội nghị Trung ương 8 (5/1941) quyết định thành lập Mặt trận Việt Minh [7]."
                 },
                 {
-                    "id": 26,
-                    "question": "Căn cứ địa cách mạng nào được thành lập năm 1945?",
-                    "difficulty": "medium",
-                    "options": [
-                        {
-                            "text": "A. Căn cứ Bắc Sơn",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Khu giải phóng Việt Bắc",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. Căn cứ Nam Kỳ",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Chiến khu Đ",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Khu giải phóng Việt Bắc được thành lập năm 1945 là căn cứ địa quan trọng của cả nước [13]."
-                },
-                {
-                    "id": 27,
-                    "question": "Thời cơ 'ngàn năm có một' để Tổng khởi nghĩa xuất hiện khi nào?",
-                    "difficulty": "medium",
-                    "options": [
-                        {
-                            "text": "A. Khi phát xít Nhật vào Đông Dương",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Tháng 8/1945 khi Nhật đầu hàng Đồng minh",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. Khi quân Pháp quay lại xâm lược",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Khi mặt trận Việt Minh ra đời",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Đảng đã nắm bắt thời cơ khi Nhật đầu hàng để phát động khởi nghĩa giành chính quyền [14], [15]."
-                },
-                {
-                    "id": 28,
-                    "question": "Ngày 2/9/1945 gắn liền với sự kiện lịch sử nào?",
+                    "id": 5,
+                    "question": "Đội Việt Nam Tuyên truyền Giải phóng quân thành lập vào ngày nào?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Thành lập Đảng Cộng sản",
+                            "text": "A. 19-8-1945",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập",
+                            "text": "B. 2-9-1945",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. 22-12-1944",
                             "is_correct": true
+                        },
+                        {
+                            "text": "D. 9-3-1945",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ngày 22/12/1944, Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập [8]."
+                },
+                {
+                    "id": 6,
+                    "question": "Căn cứ địa cách mạng tiêu biểu được xây dựng trong giai đoạn này là?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Cửu Long",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Bắc Sơn – Võ Nhai, Cao Bằng",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Nghệ An, Hà Tĩnh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Ma Cao",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng xây dựng các căn cứ cách mạng như Bắc Sơn – Võ Nhai, Cao Bằng [8]."
+                },
+                {
+                    "id": 7,
+                    "question": "Sau khi Nhật đảo chính Pháp (3/1945), Đảng ra chỉ thị quan trọng nào?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Lời kêu gọi toàn quốc kháng chiến",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Nhật – Pháp bắn nhau và hành động của chúng ta",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Kháng chiến và kiến quốc",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Chính cương vắn tắt",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Sau sự kiện Nhật đảo chính Pháp, Đảng ra chỉ thị “Nhật – Pháp bắn nhau và hành động của chúng ta” [9]."
+                },
+                {
+                    "id": 8,
+                    "question": "Thắng lợi của Cách mạng Tháng Tám 1945 dẫn đến sự ra đời của nhà nước nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Việt Nam Dân chủ Cộng hòa",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Chính phủ lâm thời miền Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Quốc gia Việt Nam",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Cách mạng Tháng Tám thành công dẫn đến sự thành lập nước Việt Nam Dân chủ Cộng hòa [9]."
+                },
+                {
+                    "id": 9,
+                    "question": "Sự kiện lịch sử diễn ra vào ngày 2/9/1945 là?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Nhật đầu hàng Đồng minh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tổng khởi nghĩa tại Hà Nội",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Bác Hồ đọc Tuyên ngôn độc lập",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Thành lập quân đội nhân dân",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ngày 2/9/1945, Chủ tịch Hồ Chí Minh tuyên bố thành lập nước Việt Nam Dân chủ Cộng hòa [9]."
+                },
+                {
+                    "id": 10,
+                    "question": "Yếu tố nào được coi là thời cơ “ngàn năm có một” vào tháng 8/1945?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Quân Đồng minh chưa vào, Nhật đã đầu hàng",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Pháp quay lại Đông Dương",
+                            "is_correct": false
                         },
                         {
                             "text": "C. Nhật đảo chính Pháp",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Khởi nghĩa giành chính quyền ở Hà Nội",
+                            "text": "D. Bác Hồ về nước",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Ngày 2/9/1945, nước Việt Nam Dân chủ Cộng hòa chính thức ra đời [13]."
-                },
+                    "explanation": "Thời cơ xuất hiện giúp giành chính quyền trước khi các lực lượng bên ngoài can thiệp [10]."
+                }
+            ]
+        },
+        {
+            "chapter_id": 5,
+            "chapter_name": "Giai đoạn 1945–1946: Xây dựng và bảo vệ chính quyền",
+            "description": "Bảo vệ nền độc lập mới non trẻ trước thù trong giặc ngoài",
+            "questions": [
                 {
-                    "id": 29,
-                    "question": "Yếu tố quyết định dẫn đến thắng lợi của Cách mạng Tháng Tám là gì?",
-                    "difficulty": "hard",
-                    "options": [
-                        {
-                            "text": "A. Sự giúp đỡ của các nước đồng minh",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "B. Đường lối chiến lược đúng đắn của Đảng",
-                            "is_correct": true
-                        },
-                        {
-                            "text": "C. Quân Nhật tự nguyện rút lui",
-                            "is_correct": false
-                        },
-                        {
-                            "text": "D. Quân Pháp trao trả độc lập",
-                            "is_correct": false
-                        }
-                    ],
-                    "explanation": "Việc hoạch định đường lối đúng đắn và sự lãnh đạo của Đảng là yếu tố then chốt [14], [16]."
-                },
-                {
-                    "id": 30,
-                    "question": "Cách mạng Tháng Tám năm 1945 đã mở ra kỷ nguyên gì cho dân tộc?",
+                    "id": 1,
+                    "question": "Vận mệnh nước Việt Nam mới sau 1945 được ví như thế nào?",
                     "difficulty": "easy",
                     "options": [
                         {
-                            "text": "A. Kỷ nguyên Bắc thuộc",
+                            "text": "A. Đang trên đà phát triển",
                             "is_correct": false
                         },
                         {
-                            "text": "B. Kỷ nguyên độc lập, tự do",
+                            "text": "B. Ngàn cân treo sợi tóc",
                             "is_correct": true
                         },
                         {
-                            "text": "C. Kỷ nguyên phong kiến tập quyền",
+                            "text": "C. Đã ổn định hoàn toàn",
                             "is_correct": false
                         },
                         {
-                            "text": "D. Kỷ nguyên lệ thuộc phương Tây",
+                            "text": "D. Đang dẫn đầu Đông Nam Á",
                             "is_correct": false
                         }
                     ],
-                    "explanation": "Thắng lợi này chấm dứt ách thống trị thực dân, mở ra kỷ nguyên mới cho Việt Nam [17], [16]."
+                    "explanation": "Sau 1945, vận mệnh nước Việt Nam mới “như ngàn cân treo sợi tóc” [11]."
+                },
+                {
+                    "id": 2,
+                    "question": "Những khó khăn lớn nhất sau Cách mạng Tháng Tám là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Nạn đói, nạn dốt, ngoại xâm",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Thiếu nhân lực trẻ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Khủng hoảng kinh tế toàn cầu",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Cháy rừng và lũ lụt",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Nước ta đối mặt với nạn đói, nạn dốt và âm mưu quay lại của thực dân Pháp cùng phản động [11]."
+                },
+                {
+                    "id": 3,
+                    "question": "Chỉ thị ngày 25-11-1945 của Đảng có tên là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Toàn quốc kháng chiến",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Nhật – Pháp bắn nhau",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Kháng chiến và kiến quốc",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Chính cương Đảng Lao động",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng ra Chỉ thị “Kháng chiến và kiến quốc” vào ngày 25-11-1945 [12]."
+                },
+                {
+                    "id": 4,
+                    "question": "Nhiệm vụ bao trùm của nhân dân ta lúc này là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Cải cách ruộng đất",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Củng cố chính quyền",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Mở rộng quan hệ quốc tế",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Truy tìm kho báu",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Nhiệm vụ bao trùm lúc này là củng cố chính quyền cách mạng [12]."
+                },
+                {
+                    "id": 5,
+                    "question": "Sự kiện nào diễn ra vào tháng 1/1946 giúp củng cố chính quyền dân chủ?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Hiệp định Sơ bộ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tổng tuyển cử đầu tiên",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Thành lập Việt Minh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Ký Hiệp định Pari",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Tổ chức Tổng tuyển cử đầu tiên vào tháng 1/1946 để thành lập Chính phủ chính thức [13]."
+                },
+                {
+                    "id": 6,
+                    "question": "Phong trào nào được phát động để giải quyết nạn đói?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Tuần lễ vàng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Hũ gạo cứu đói",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Bình dân học vụ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Ba sẵn sàng",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng phát động phong trào “Hũ gạo cứu đói” để giúp đỡ nhân dân [13]."
+                },
+                {
+                    "id": 7,
+                    "question": "Phong trào “Tuần lễ vàng” nhằm mục đích gì?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Mua vàng tích trữ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Quyên góp tài chính cho chính phủ",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Phát vàng cho người nghèo",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Kỷ niệm ngày thành lập Đảng",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "“Tuần lễ vàng” nhằm quyên góp ủng hộ tài chính cho nhà nước non trẻ [13, 14]."
+                },
+                {
+                    "id": 8,
+                    "question": "Việc ký kết Hiệp định Sơ bộ (6/3/1946) với Pháp nhằm mục đích?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Chấp nhận bị Pháp cai trị tiếp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Hòa hoãn để có thời gian chuẩn bị lực lượng",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Kết thúc hoàn toàn chiến tranh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Đầu hàng thực dân Pháp",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ký Hiệp định Sơ bộ để hòa hoãn với Pháp, dành thời gian chuẩn bị lực lượng [13]."
+                },
+                {
+                    "id": 9,
+                    "question": "Bốn nhiệm vụ của nhân dân ta được xác định trong Chỉ thị Kháng chiến kiến quốc là gì?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Củng cố chính quyền, chống Pháp, bài trừ nội phản, cải thiện đời sống",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Đánh đổ Nhật, Pháp, phong kiến, địa chủ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chỉ tập trung chống đói và chống dốt",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Đàm phán, thương lượng, nhượng bộ, đầu hàng",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Bốn nhiệm vụ là: Củng cố chính quyền, chống thực dân Pháp, bài trừ nội phản, cải thiện đời sống [12]."
+                },
+                {
+                    "id": 10,
+                    "question": "Thành quả lớn nhất của giai đoạn 1945-1946 là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đuổi được hoàn toàn quân Pháp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Bảo vệ thành công thành quả Cách mạng Tháng Tám",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Giải phóng miền Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Hoàn thành cải cách ruộng đất",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Kết quả lớn nhất là bảo vệ thành công thành quả Cách mạng Tháng Tám [13]."
+                }
+            ]
+        },
+        {
+            "chapter_id": 6,
+            "chapter_name": "Giai đoạn 1946–1954: Kháng chiến chống thực dân Pháp",
+            "description": "Cuộc kháng chiến toàn dân, toàn diện và chiến thắng Điện Biên Phủ",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Văn kiện nào được Bác Hồ công bố vào ngày 19/12/1946?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Tuyên ngôn độc lập",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Lời kêu gọi toàn quốc kháng chiến",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Chính cương vắn tắt",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Hiến pháp đầu tiên",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ngày 19/12/1946, Bác Hồ ra Lời kêu gọi toàn quốc kháng chiến [15]."
+                },
+                {
+                    "id": 2,
+                    "question": "Đường lối kháng chiến chống Pháp của Đảng là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đánh nhanh thắng nhanh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Toàn dân, toàn diện, trường kỳ và tự lực cánh sinh",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Chỉ dựa vào hỗ trợ bên ngoài",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Tập trung đấu tranh ngoại giao",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đảng xác định đường lối là toàn dân, toàn diện, trường kỳ và tự lực cánh sinh [15]."
+                },
+                {
+                    "id": 3,
+                    "question": "Tại Đại hội lần thứ II (1951), Đảng đổi tên thành gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Đảng Cộng sản Việt Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Đảng Lao động Việt Nam",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Đảng Cộng sản Đông Dương",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Mặt trận Tổ quốc",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đại hội II (1951) quyết định đổi tên Đảng thành Đảng Lao động Việt Nam [15]."
+                },
+                {
+                    "id": 4,
+                    "question": "Chiến dịch nào đã làm phá sản kế hoạch 'đánh nhanh thắng nhanh' của Pháp?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Chiến dịch Việt Bắc Thu - Đông (1947)",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Chiến dịch Biên giới (1950)",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chiến dịch Điện Biên Phủ (1954)",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Chiến dịch Thượng Lào",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Chiến dịch Việt Bắc 1947 đã phá sản kế hoạch “đánh nhanh thắng nhanh” của Pháp [16]."
+                },
+                {
+                    "id": 5,
+                    "question": "Chiến thắng 'lừng lẫy năm châu, chấn động địa cầu' là chiến dịch nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Hòa Bình",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tây Bắc",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Điện Biên Phủ",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Đường 9 - Nam Lào",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Chiến thắng Điện Biên Phủ (1954) được ví là “lừng lẫy năm châu, chấn động địa cầu” [16]."
+                },
+                {
+                    "id": 6,
+                    "question": "Chủ trương cải cách ruộng đất được thực hiện từ năm nào để chi viện tiền tuyến?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Năm 1945",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Năm 1950",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Năm 1953",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Năm 1954",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Thực hiện cải cách ruộng đất từ năm 1953 để đáp ứng nguyện vọng nông dân [16]."
+                },
+                {
+                    "id": 7,
+                    "question": "Hiệp định nào kết thúc thắng lợi cuộc kháng chiến chống Pháp năm 1954?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Hiệp định Sơ bộ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Hiệp định Pari",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Hiệp định Giơ-ne-vơ",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Hiệp định Vác-sa-va",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Hiệp định Giơ-ne-vơ (1954) kết thúc thắng lợi cuộc kháng chiến chống Pháp [16]."
+                },
+                {
+                    "id": 8,
+                    "question": "Mục tiêu của cuộc kháng chiến toàn diện là đấu tranh trên các lĩnh vực?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Quân sự, chính trị, kinh tế, văn hóa",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Chỉ quân sự và kinh tế",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chỉ quân sự và ngoại giao",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Chỉ chính trị và văn hóa",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Toàn diện nghĩa là đánh địch trên mọi mặt quân sự, chính trị, kinh tế, văn hóa [15, 17]."
+                },
+                {
+                    "id": 9,
+                    "question": "Chiến dịch Biên giới (1950) có ý nghĩa quan trọng gì?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Phá vỡ vòng vây của Pháp, mở thông đường sang các nước XHCN",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Kết thúc hoàn toàn chiến tranh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Giải phóng thủ đô Hà Nội",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Mỹ nhảy vào can thiệp trực tiếp",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Chiến dịch Biên giới 1950 giúp phá sản các kế hoạch quân sự của Pháp và mở rộng liên kết quốc tế [16]."
+                },
+                {
+                    "id": 10,
+                    "question": "Vai trò của hậu phương miền Bắc trong kháng chiến chống Pháp được thể hiện qua?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Cung cấp sức người, sức của cho tiền tuyến",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Chỉ sản xuất nông nghiệp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chỉ lo phòng thủ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Đi đàm phán quốc tế",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Hậu phương cung cấp nhân lực và vật lực khổng lồ cho các chiến dịch lớn [16, 18]."
+                }
+            ]
+        },
+        {
+            "chapter_id": 7,
+            "chapter_name": "Giai đoạn 1954–1965: Xây dựng miền Bắc và đấu tranh miền Nam",
+            "description": "Hai chiến lược cách mạng song song tại hai miền Nam - Bắc",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Sau năm 1954, Việt Nam bị chia cắt thành hai miền qua ranh giới nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Vĩ tuyến 14",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Vĩ tuyến 17",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Sông Hương",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Vĩ tuyến 20",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đất nước bị chia cắt thành hai miền qua vĩ tuyến 17 [19]."
+                },
+                {
+                    "id": 2,
+                    "question": "Đại hội III của Đảng (1960) xác định mấy chiến lược cách mạng?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Một chiến lược",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Hai chiến lược",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Ba chiến lược",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Không xác định",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Đại hội III xác định đồng thời hai chiến lược: Cách mạng XHCN ở miền Bắc và cách mạng dân tộc dân chủ nhân dân ở miền Nam [19]."
+                },
+                {
+                    "id": 3,
+                    "question": "Miền Bắc đóng vai trò gì đối với sự nghiệp giải phóng dân tộc giai đoạn này?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Quyết định trực tiếp",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Quyết định nhất",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Vai trò phụ trợ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Trung tâm đàm phán",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Miền Bắc đóng vai trò quyết định nhất đối với sự nghiệp giải phóng dân tộc [19]."
+                },
+                {
+                    "id": 4,
+                    "question": "Miền Nam đóng vai trò gì đối với sự nghiệp giải phóng dân tộc?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Quyết định nhất",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Quyết định trực tiếp",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Vai trò hậu thuẫn",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Vai trò hòa giải",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Miền Nam đóng vai trò quyết định trực tiếp đối với sự nghiệp giải phóng dân tộc [19]."
+                },
+                {
+                    "id": 5,
+                    "question": "Nghị quyết Trung ương 15 (1959) có ý nghĩa gì đối với cách mạng miền Nam?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Chủ trương đấu tranh chính trị đơn thuần",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Soi sáng con đường bạo lực cách mạng",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Kêu gọi hòa bình với Mỹ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Thành lập quân đội chính quy",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Nghị quyết 15 soi sáng con đường bạo lực cách mạng, dẫn đến phong trào Đồng khởi [20]."
+                },
+                {
+                    "id": 6,
+                    "question": "Phong trào “Đồng khởi” (1960) nổ ra tiêu biểu nhất ở tỉnh nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Mỹ Tho",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Bến Tre",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Quảng Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Tây Ninh",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Phong trào Đồng khởi (1960) diễn ra mạnh mẽ, tiêu biểu là ở Bến Tre [20, 21]."
+                },
+                {
+                    "id": 7,
+                    "question": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam ra đời khi nào?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Năm 1954",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Năm 1959",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Năm 1960",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Năm 1965",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam ra đời sau phong trào Đồng khởi năm 1960 [20]."
+                },
+                {
+                    "id": 8,
+                    "question": "Chiến lược chiến tranh nào của Mỹ bị đánh bại trong giai đoạn 1961-1965?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. Chiến tranh đặc biệt",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Chiến tranh cục bộ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Việt Nam hóa chiến tranh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Chiến tranh đơn phương",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Quân dân ta đã đánh bại chiến lược “Chiến tranh đặc biệt” của Mỹ (1961-1965) [20]."
+                },
+                {
+                    "id": 9,
+                    "question": "Sự kiện nào đánh dấu miền Bắc bước vào thời kỳ khôi phục và phát triển kinh tế?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Hoàn thành cải cách ruộng đất (1956)",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Ký Hiệp định Pari",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Đánh thắng B52",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Thành lập quân khu Việt Bắc",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Miền Bắc hoàn thành cải cách ruộng đất (1956) làm tiền đề khôi phục kinh tế [20]."
+                },
+                {
+                    "id": 10,
+                    "question": "Kế hoạch 5 năm lần thứ nhất ở miền Bắc diễn ra trong khoảng thời gian nào?",
+                    "difficulty": "hard",
+                    "options": [
+                        {
+                            "text": "A. 1954 - 1959",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. 1961 - 1965",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. 1965 - 1970",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. 1971 - 1975",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Miền Bắc thực hiện kế hoạch 5 năm lần thứ nhất từ 1961 đến 1965 [20]."
+                }
+            ]
+        },
+        {
+            "chapter_id": 8,
+            "chapter_name": "Giai đoạn 1965–1975: Kháng chiến chống Mỹ, thống nhất đất nước",
+            "description": "Đánh bại các chiến lược của Mỹ và chiến dịch Hồ Chí Minh lịch sử",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Mỹ thực hiện chiến lược 'Chiến tranh cục bộ' trong khoảng thời gian nào?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. 1961 - 1965",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. 1965 - 1968",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. 1969 - 1975",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. 1945 - 1954",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Mỹ thực hiện chiến lược “Chiến tranh cục bộ” từ năm 1965 đến 1968 [22]."
+                },
+                {
+                    "id": 2,
+                    "question": "Chiến lược 'Việt Nam hóa chiến tranh' diễn ra trong giai đoạn nào?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. 1965 - 1968",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. 1969 - 1975",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. 1954 - 1960",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. 1961 - 1965",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Sau 'Chiến tranh cục bộ', Mỹ chuyển sang “Việt Nam hóa chiến tranh” (1969-1975) [22]."
+                },
+                {
+                    "id": 3,
+                    "question": "Sự kiện nào năm 1968 đã làm phá sản chiến lược 'Chiến tranh cục bộ'?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Chiến dịch Hồ Chí Minh",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Tổng tiến công và nổi dậy Xuân Mậu Thân",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Hiệp định Pari",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Chiến dịch Biên giới",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Cuộc Tổng tiến công Xuân Mậu Thân 1968 làm phá sản 'Chiến tranh cục bộ' [23]."
+                },
+                {
+                    "id": 4,
+                    "question": "Trận 'Điện Biên Phủ trên không' (1972) là cuộc chiến chống lại loại vũ khí nào của Mỹ?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Xe tăng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Máy bay B-52",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Tàu ngầm",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Tên lửa tầm xa",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Trận này đập tan cuộc tập kích bằng máy bay B-52 của Mỹ vào Hà Nội, Hải Phòng [23]."
+                },
+                {
+                    "id": 5,
+                    "question": "Hiệp định Pari về chấm dứt chiến tranh ở Việt Nam được ký kết vào năm nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Năm 1968",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Năm 1972",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Năm 1973",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Năm 1975",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Hiệp định Pari được ký kết vào năm 1973, buộc Mỹ phải rút quân [23]."
+                },
+                {
+                    "id": 6,
+                    "question": "Kết quả quan trọng nhất của Hiệp định Pari 1973 là gì?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Giải phóng hoàn toàn miền Nam",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Mỹ buộc phải rút quân về nước",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "C. Thành lập chính phủ mới",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Kết thúc nạn đói",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ký kết Hiệp định Pari, Mỹ buộc phải rút quân về nước, tạo thế so sánh lực lượng có lợi cho ta [23]."
+                },
+                {
+                    "id": 7,
+                    "question": "Chiến dịch cuối cùng giải phóng hoàn toàn miền Nam mang tên là gì?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. Chiến dịch Tây Nguyên",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. Chiến dịch Huế - Đà Nẵng",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Chiến dịch Hồ Chí Minh",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. Chiến dịch Quảng Trị",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Chiến dịch Hồ Chí Minh lịch sử giải phóng hoàn toàn miền Nam [23]."
+                },
+                {
+                    "id": 8,
+                    "question": "Ngày giải phóng hoàn toàn miền Nam, thống nhất đất nước là ngày nào?",
+                    "difficulty": "easy",
+                    "options": [
+                        {
+                            "text": "A. 2-9-1945",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. 19-5-1975",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. 30-4-1975",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. 7-5-1954",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Ngày 30/4/1975, miền Nam hoàn toàn giải phóng, non sông thu về một mối [23]."
+                },
+                {
+                    "id": 9,
+                    "question": "Cuộc kháng chiến chống Mỹ cứu nước của nhân dân ta kéo dài bao nhiêu năm?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. 9 năm",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "B. 15 năm",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. 21 năm",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "D. 30 năm",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Cuộc kháng chiến chống Mỹ kéo dài 21 năm (1954-1975) [23]."
+                },
+                {
+                    "id": 10,
+                    "question": "Thắng lợi năm 1975 đã mở ra kỷ nguyên gì cho dân tộc Việt Nam?",
+                    "difficulty": "medium",
+                    "options": [
+                        {
+                            "text": "A. Kỷ nguyên độc lập, thống nhất và đi lên CNXH",
+                            "is_correct": true
+                        },
+                        {
+                            "text": "B. Kỷ nguyên kháng chiến trường kỳ",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "C. Kỷ nguyên phụ thuộc vào quốc tế",
+                            "is_correct": false
+                        },
+                        {
+                            "text": "D. Kỷ nguyên nội chiến kéo dài",
+                            "is_correct": false
+                        }
+                    ],
+                    "explanation": "Thắng lợi 1975 mở ra kỷ nguyên độc lập, thống nhất và đi lên CNXH trên cả nước [23]."
                 }
             ]
         }

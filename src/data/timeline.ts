@@ -10,7 +10,18 @@ import image32 from '../assets/image32.png'
 import image33 from '../assets/image33.png'
 import image42 from '../assets/image42.png'
 import image43 from '../assets/image43.png'
-
+import image5 from '../assets/image5.png'
+import image52 from '../assets/image52.png'
+import image53 from '../assets/image53.png'
+import image6 from '../assets/image6.png'
+import image62 from '../assets/image62.png'
+import image63 from '../assets/image63.png'
+import image7 from '../assets/image7.png'
+import image72 from '../assets/image72.png'
+import image73 from '../assets/image73.png'
+import image8 from '../assets/image8.png'
+import image82 from '../assets/image82.png'
+import image83 from '../assets/image83.png'
 export type TimelineItem = {
     period: string
     title: string
@@ -90,4 +101,77 @@ Xuất hiện hình thức chính quyền cách mạng sơ khai của nhân dân
         gallery: [image4, image42, image43],
         imageAlt: 'Chuẩn bị tổng khởi nghĩa',
     },
+    {
+        period: "1945-1946",
+        title: "Xây dựng chính quyền cách mạng và bảo vệ nền độc lập",
+        description: "Sau Cách mạng Tháng Tám, chính quyền non trẻ đối mặt với thù trong giặc ngoài, tập trung củng cố chính quyền và bảo vệ nền độc lập.",
+        fullDescription: [
+            "Sau thắng lợi của Cách mạng Tháng Tám, nước Việt Nam Dân chủ Cộng hòa ra đời trong bối cảnh vô cùng khó khăn: nạn đói, nạn dốt và sự đe dọa từ thực dân Pháp cùng các lực lượng phản động.",
+            "Đảng Cộng sản Đông Dương đã ban hành Chỉ thị \"Kháng chiến và kiến quốc\" (25/11/1945), xác định bốn nhiệm vụ: củng cố chính quyền, chống thực dân Pháp, bài trừ nội phản và cải thiện đời sống nhân dân.",
+            "Nhiệm vụ trọng tâm là củng cố chính quyền cách mạng, đồng thời chuẩn bị kháng chiến lâu dài.",
+            "Các hoạt động tiêu biểu gồm: tổ chức Tổng tuyển cử (1/1946), thành lập Chính phủ chính thức, phát động phong trào \"Hũ gạo cứu đói\", \"Tuần lễ vàng\".",
+            "Ký Hiệp định Sơ bộ (6/3/1946) để hòa hoãn với Pháp nhằm tranh thủ thời gian chuẩn bị lực lượng.",
+            "Kết quả: giữ vững chính quyền cách mạng, tạo tiền đề cho kháng chiến lâu dài."
+        ],
+        image: image5,
+        gallery: [image5, image52, image53],
+        imageAlt: "Xây dựng chính quyền sau Cách mạng Tháng Tám"
+    },
+    {
+        period: "1946-1954",
+        title: "Kháng chiến chống thực dân Pháp",
+        description: "Toàn quốc kháng chiến chống Pháp với đường lối toàn dân, toàn diện, trường kỳ và tự lực cánh sinh.",
+        fullDescription: [
+            "Thực dân Pháp bội ước, tấn công nước ta, buộc toàn dân đứng lên kháng chiến từ ngày 19/12/1946.",
+            "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến, khẳng định quyết tâm bảo vệ Tổ quốc.",
+            "“Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phải, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc.”",
+            "Đảng xác định đường lối kháng chiến: toàn dân, toàn diện, trường kỳ và tự lực cánh sinh.",
+            "Đại hội II (1951) đưa Đảng ra hoạt động công khai với tên gọi Đảng Lao động Việt Nam.",
+            "Các chiến dịch lớn: Việt Bắc Thu-Đông(1947), Biên giới (1950), Hòa Bình (1951), Tây Bắc (1952), Thượng Lào (1953).",
+            "Thực hiện cải cách ruộng đất (1953) nhằm huy động sức dân cho kháng chiến.",
+            "Đỉnh cao là chiến thắng Điện Biên Phủ (1954).",
+            "Kết quả: ký Hiệp định Giơ-ne-vơ, kết thúc chiến tranh, tạo tiền đề cho phong trào giải phóng dân tộc trên thế giới."
+        ],
+        image: image6,
+        gallery: [image6, image62, image63],
+        imageAlt: "Kháng chiến chống Pháp"
+    },
+    {
+        period: "1954-1965",
+        title: "Xây dựng CNXH ở miền Bắc và đấu tranh ở miền Nam",
+        description: "Đất nước tạm thời chia cắt, miền Bắc xây dựng CNXH, miền Nam đấu tranh chống Mỹ và chính quyền tay sai.",
+        fullDescription: [
+            "Sau Hiệp định Giơ-ne-vơ, đất nước chia cắt tại vĩ tuyến 17.",
+            "Miền Bắc tiến hành xây dựng chủ nghĩa xã hội trong điều kiện kinh tế còn khó khăn.",
+            "Miền Nam trở thành thuộc địa kiểu mới của Mỹ.",
+            "Đại hội III (1960) xác định hai chiến lược cách mạng song song ở hai miền. Cách mạng XHCN ở miền Bắc và Cách mạng dân tộc dân chủ nhân dân ở miền Nam. Miền Bắc đóng vai trò quyết định nhất, miền Nam đóng vai trò quyết định trực tiếp đối với sự nghiệp giải phóng dân tộc.",
+            "Miền Bắc: hoàn thành cải cách ruộng đất, khôi phục kinh tế, thực hiện kế hoạch 5 năm lần thứ nhất.",
+            "Miền Nam: Nghị quyết Trung ương 15 (1959) dẫn đến phong trào Đồng khởi (1960).",
+            "Thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam.",
+            "Đánh bại chiến lược \"Chiến tranh đặc biệt\" của Mỹ.",
+            "Kết quả: miền Bắc trở thành hậu phương vững chắc, miền Nam giữ thế tiến công."
+        ],
+        image: image7,
+        gallery: [image7, image72, image73],
+        imageAlt: "Xây dựng miền Bắc và đấu tranh miền Nam"
+    },
+    {
+        period: "1965-1975",
+        title: "Kháng chiến chống Mỹ và giải phóng miền Nam",
+        description: "Cuộc kháng chiến chống Mỹ diễn ra ác liệt, kết thúc bằng thắng lợi hoàn toàn năm 1975.",
+        fullDescription: [
+            "Mỹ tiến hành chiến lược \"Chiến tranh cục bộ\"(1965-1968) rồi \"Việt Nam hóa chiến tranh\"(1969-1975).",
+            "Đảng đề ra quyết tâm đánh thắng Mỹ, bảo vệ miền Bắc và giải phóng miền Nam.",
+            "Miền Bắc vừa sản xuất vừa chiến đấu, chi viện cho miền Nam.",
+            "Các sự kiện tiêu biểu: Tổng tiến công Tết Mậu Thân (1968).",
+            "Chiến thắng \"Điện Biên Phủ trên không\" (1972).",
+            "Ký Hiệp định Pari (1973), Mỹ rút quân.",
+            "Chiến dịch Hồ Chí Minh (30/4/1975) giải phóng hoàn toàn miền Nam.",
+            "Kết quả: thống nhất đất nước, mở ra kỷ nguyên độc lập và đi lên CNXH."
+        ],
+        image: image83,
+        gallery: [image8, image82, image83],
+        imageAlt: "Giải phóng miền Nam"
+    }
+
 ]

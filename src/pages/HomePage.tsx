@@ -1,5 +1,6 @@
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
+import { VideoSection } from "../components/sections/VideoSection";
 import { ConclusionSection } from '../components/sections/ConclusionSection'
 import { ContextSection } from '../components/sections/ContextSection'
 import { HeroSection } from '../components/sections/HeroSection'
@@ -15,6 +16,7 @@ export function HomePage() {
                 <ContextSection />
                 <TimelineSection />
                 <RolesSection />
+                <VideoSection />
                 <ConclusionSection />
             </main>
             <Footer />

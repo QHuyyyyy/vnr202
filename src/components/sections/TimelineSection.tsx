@@ -10,7 +10,7 @@ export function TimelineSection() {
 
 
     const activeItem = activeIndex === null ? null : timelineItems[activeIndex]
-    const isExtendedWidthPeriod = activeItem?.period === '1939-1945'
+    const isExtendedWidthPeriod = activeItem?.period === '1939-1945' || activeItem?.period === '1965-1975'
 
     const openDetail = (index: number) => {
         setSlideDirection(index >= (activeIndex ?? 0) ? 1 : -1)
@@ -39,8 +39,8 @@ export function TimelineSection() {
             <div className="container mx-auto px-6">
                 <SectionHeading
                     centered
-                    title="Hành Trình 15 Năm Lãnh Đạo"
-                    subtitle="Từng bước chuẩn bị cho sự bùng nổ của Cách mạng Tháng Tám"
+                    title="Hành Trình 45 Năm Lãnh Đạo"
+                    subtitle="Từng bước xây dựng lực lượng, giành chính quyền, tiến hành kháng chiến và hoàn thành sự nghiệp giải phóng, thống nhất đất nước."
                 />
 
                 <LayoutGroup id="timeline-mode">
@@ -57,39 +57,44 @@ export function TimelineSection() {
                             >
                                 <div className="w-full px-6 md:px-10">
                                     <div className="p-0">
-                                        <div className="relative pb-6 pt-2">
-                                            <motion.div
-                                                layoutId="timeline-axis"
-                                                transition={{ type: 'spring', stiffness: 220, damping: 28 }}
-                                                className="pointer-events-none absolute left-0 right-0 top-7 h-px bg-primary/25"
-                                                aria-hidden="true"
-                                            />
-                                            <div className="relative grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-6">
-                                                {timelineItems.map((item, idx) => {
-                                                    const isActive = idx === activeIndex
+                                        <div className="overflow-x-auto pb-6 pt-2">
+                                            <div className="relative min-w-[700px] w-full">
+                                                <motion.div
+                                                    layoutId="timeline-axis"
+                                                    transition={{ type: 'spring', stiffness: 220, damping: 28 }}
+                                                    className="pointer-events-none absolute left-0 right-0 top-7 h-px bg-primary/25"
+                                                    aria-hidden="true"
+                                                />
+                                                <div
+                                                    className="relative grid gap-3 md:gap-6"
+                                                    style={{ gridTemplateColumns: `repeat(${timelineItems.length}, minmax(0, 1fr))` }}
+                                                >
+                                                    {timelineItems.map((item, idx) => {
+                                                        const isActive = idx === activeIndex
 
-                                                    return (
-                                                        <button
-                                                            key={item.period}
-                                                            type="button"
-                                                            onClick={() => openDetail(idx)}
-                                                            className="flex flex-col items-center"
-                                                            aria-label={`Chọn mốc ${item.period}`}
-                                                        >
-                                                            <span
-                                                                className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-white text-[10px] font-bold transition-all md:h-9 md:w-9 md:text-xs ${isActive
-                                                                    ? 'scale-110 bg-primary text-white ring-4 ring-primary/25'
-                                                                    : 'bg-gray-300 text-gray-600 ring-2 ring-primary/10'
-                                                                    }`}
+                                                        return (
+                                                            <button
+                                                                key={item.period}
+                                                                type="button"
+                                                                onClick={() => openDetail(idx)}
+                                                                className="flex flex-col items-center"
+                                                                aria-label={`Chọn mốc ${item.period}`}
                                                             >
-                                                                {String(idx + 1).padStart(2, '0')}
-                                                            </span>
-                                                            <span className={`mt-2 text-[10px] font-bold uppercase md:text-xs ${isActive ? 'text-primary' : 'text-gray-500'}`}>
-                                                                {item.period}
-                                                            </span>
-                                                        </button>
-                                                    )
-                                                })}
+                                                                <span
+                                                                    className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-white text-[10px] font-bold transition-all md:h-9 md:w-9 md:text-xs ${isActive
+                                                                        ? 'scale-110 bg-primary text-white ring-4 ring-primary/25'
+                                                                        : 'bg-gray-300 text-gray-600 ring-2 ring-primary/10'
+                                                                        }`}
+                                                                >
+                                                                    {String(idx + 1).padStart(2, '0')}
+                                                                </span>
+                                                                <span className={`mt-2 text-[10px] font-bold uppercase md:text-xs ${isActive ? 'text-primary' : 'text-gray-500'}`}>
+                                                                    {item.period}
+                                                                </span>
+                                                            </button>
+                                                        )
+                                                    })}
+                                                </div>
                                             </div>
                                         </div>
 
@@ -211,7 +216,7 @@ export function TimelineSection() {
                                                     <img
                                                         src={item.image}
                                                         alt={item.imageAlt}
-                                                        className="h-80 w-full rounded-eight border border-dark/5 object-cover shadow-md grayscale transition-transform duration-500 hover:scale-105 md:h-[32rem]"
+                                                        className="h-80 w-full rounded-eight border border-dark/5 object-cover shadow-md transition-transform duration-500 hover:scale-105 md:h-[32rem]"
                                                     />
                                                 ) : (
                                                     <div

@@ -28,11 +28,11 @@ export function HeroSection() {
                     <br />
                     <span className="text-primary italic">Giành Chính Quyền</span>
                     <br />
-                    Của Đảng Cộng Sản Việt Nam (1930-1945)
+                    Của Đảng Cộng Sản Việt Nam (1930-1975)
                 </h1>
 
                 <p className="mx-auto mb-10 max-w-3xl text-lg leading-relaxed text-gray-700 md:text-xl">
-                    Từ khi ra đời năm 1930 đến thắng lợi của Cách mạng Tháng Tám 1945, Đảng đã lãnh đạo nhân dân từng bước xây
+                    Từ năm 1930 đến năm 1975, Đảng đã lãnh đạo nhân dân từng bước xây
                     dựng lực lượng, chuẩn bị và nắm bắt thời cơ để giành chính quyền về tay nhân dân.
                 </p>
 

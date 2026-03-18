@@ -8,7 +8,7 @@ type AnswerOption = {
 }
 
 type QuizQuestion = {
-  id: number
+  id: string
   chapterName: string
   context: string
   question: string
@@ -58,7 +58,7 @@ export function QuickQuiz() {
           .sort(() => Math.random() - 0.5)
 
         return {
-          id: question.id,
+          id: `${chapter.chapter_id}-${question.id}`,
           chapterName: chapter.chapter_name,
           context: chapter.description,
           question: question.question,
@@ -67,8 +67,8 @@ export function QuickQuiz() {
       }),
     )
 
-    // Shuffle questions
-    return allQuestions.sort(() => Math.random() - 0.5)
+    // Shuffle questions and select up to 50
+    return allQuestions.sort(() => Math.random() - 0.5).slice(0, 50)
   }, [])
 
   useEffect(() => {
@@ -281,7 +281,7 @@ export function QuickQuiz() {
             <div className="p-8 md:p-12 border-b border-dark/5 bg-gradient-to-br from-white to-surface">
               <span className="text-primary font-bold text-xs tracking-[0.2em] uppercase mb-4 block">Trắc Nghiệm Lịch Sử</span>
               <h1 className="text-3xl md:text-4xl font-serif font-bold text-dark mb-4 leading-tight">
-                Bạn hiểu rõ về giai đoạn 1930-1945 như thế nào?
+                Bạn hiểu rõ về giai đoạn 1930-1975 như thế nào?
               </h1>
               <p className="text-dark/60 text-lg">Kiểm tra kiến thức của bạn về Đảng Cộng sản Việt Nam và tiến trình giành độc lập dân tộc.</p>
             </div>

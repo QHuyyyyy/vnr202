@@ -20,34 +20,153 @@ export function ReferencesPage() {
 
           <section className="grid gap-4 lg:grid-cols-2">
             <div className="rounded-3xl border border-primary/20 bg-white/80 p-5 shadow-lg shadow-primary/10">
-              <h3 className="text-lg font-semibold text-dark">Video tham khảo</h3>
-              <ul className="mt-4 space-y-4 text-sm text-dark/70">
-                {/* <li className="flex flex-col gap-2 rounded-2xl border border-primary/15 bg-surface/60 p-4">
-                <span className="font-medium text-dark">
-                  Những câu chuyện sinh hoạt đời thường của Bác | Kể Chuyện Về Bác Hồ Đài Tiếng Nói Việt Nam VOV 650
-                </span>
-                <a
-                  className="text-primary underline decoration-primary/40 underline-offset-4"
-                  href="https://www.youtube.com/watch?v=n2T8FOtk4bI"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  https://www.youtube.com/watch?v=n2T8FOtk4bI
-                </a>
-              </li>
-              <li className="flex flex-col gap-2 rounded-2xl border border-primary/15 bg-surface/60 p-4">
-                <span className="font-medium text-dark">
-                  Đồng chí Vũ Kỳ kể về ngày làm việc của Bác, tinh thần đoàn kết của Người (Trả lời phỏng vấn phần 1)
-                </span>
-                <a
-                  className="text-primary underline decoration-primary/40 underline-offset-4"
-                  href="https://www.youtube.com/watch?v=FJ7cEQvjUws"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  https://www.youtube.com/watch?v=FJ7cEQvjUws
-                </a>
-              </li> */}
+              <h3 className="text-lg font-semibold text-dark">Tài liệu tham khảo</h3>
+              <ul className="mt-4 space-y-4 text-sm text-dark/70 overflow-y-auto pr-2 custom-scrollbar" style={{ maxHeight: '380px' }}>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+                  <div className="flex min-w-0 flex-col">
+
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://noichinh.vn/nghien-cuu-trao-doi/201309/xay-dung-va-bao-ve-chinh-quyen-sau-cach-mang-thang-tam-292407/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://noichinh.vn/nghien-cuu-trao-doi/201309/xay-dung-va-bao-ve-chinh-quyen-sau-cach-mang-thang-tam-292407/
+                    </a>
+                  </div>
+                </li>
+
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://www.hcmcpv.org.vn/tin-tuc/hai-cuoc-khang-phap-cua-dan-toc-viet-nam-1491883502"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://www.hcmcpv.org.vn/tin-tuc/hai-cuoc-khang-phap-cua-dan-toc-viet-nam-1491883502
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://nhandan.vn/giai-cap-nong-dan-gop-phan-lam-nen-chien-thang-lich-su-post533564.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://nhandan.vn/giai-cap-nong-dan-gop-phan-lam-nen-chien-thang-lich-su-post533564.html
+                    </a>
+                  </div>
+                </li>
+
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href=" https://sjc.ussh.vnu.edu.vn/vi/nghien-cuu-khoa-hoc/chuong-trinh-de-tai-du-an/mon-su-viet-nam-giai-doan-1954-1975-15.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://sjc.ussh.vnu.edu.vn/vi/nghien-cuu-khoa-hoc/chuong-trinh-de-tai-du-an/mon-su-viet-nam-giai-doan-1954-1975-15.html
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://nhandan.vn/special/visaolavituyen17/index.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://nhandan.vn/special/visaolavituyen17/index.html
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://sjc.ussh.vnu.edu.vn/vi/nghien-cuu-khoa-hoc/chuong-trinh-de-tai-du-an/mon-su-viet-nam-giai-doan-1954-1975-15.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://sjc.ussh.vnu.edu.vn/vi/nghien-cuu-khoa-hoc/chuong-trinh-de-tai-du-an/mon-su-viet-nam-giai-doan-1954-1975-15.html
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://www.qdnd.vn/tu-lieu-ho-so/ngay-nay-nam-xua/ngay-3-2-1930-buoc-ngoat-lich-su-cua-cach-mang-viet-nam-684714"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://www.qdnd.vn/tu-lieu-ho-so/ngay-nay-nam-xua/ngay-3-2-1930-buoc-ngoat-lich-su-cua-cach-mang-viet-nam-684714
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://baochinhphu.vn/nguyen-ai-quoc-va-hoi-nghi-trung-uong-thang-10-1930-10280772.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://baochinhphu.vn/nguyen-ai-quoc-va-hoi-nghi-trung-uong-thang-10-1930-10280772.html
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://www.tapchicongsan.org.vn/web/guest/chinh-tri-xay-dung-dang/-/2018/825332/hoat-dong-cua-dong-chi-phan-dang-luu-trong-qua-trinh-xay-dung%2C-phat-trien-to-chuc-dang-va-phong-trao-cach-mang-o-trung-ky.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://www.tapchicongsan.org.vn/web/guest/chinh-tri-xay-dung-dang/-/2018/825332/hoat-dong-cua-dong-chi-phan-dang-luu-trong-qua-trinh-xay-dung%2C-phat-trien-to-chuc-dang-va-phong-trao-cach-mang-o-trung-ky.aspx
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://tapchilichsudang.vn/chu-truong-cua-dang-cong-san-dong-duong-trong-xay-dung-luc-luong-cach-mang-giai-doan-1936-1939.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://tapchilichsudang.vn/chu-truong-cua-dang-cong-san-dong-duong-trong-xay-dung-luc-luong-cach-mang-giai-doan-1936-1939.html
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://daibieunhandan.vn/y-chi-ban-linh-va-khat-vong-doc-lap-dan-toc-bai-1-chu-truong-chuyen-huong-chi-dao-chien-luoc-10383903.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://daibieunhandan.vn/y-chi-ban-linh-va-khat-vong-doc-lap-dan-toc-bai-1-chu-truong-chuyen-huong-chi-dao-chien-luoc-10383903.html
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
 
@@ -122,7 +241,6 @@ export function ReferencesPage() {
               </div>
             </div>
           </section>
-
           <Footer />
         </div>
       </div>
