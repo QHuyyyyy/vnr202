@@ -140,11 +140,7 @@ export function TimelineSection() {
                                                                 alt={`${activeItem.imageAlt} ${imageIndex + 1}`}
                                                                 className="absolute inset-0 h-full w-full object-cover  transition duration-500 group-hover:scale-105 hover:grayscale-0 cursor-pointer"
                                                             />
-                                                            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black/80 to-transparent px-4 pb-4 pt-12">
-                                                                <p className="text-xs font-semibold uppercase tracking-wider text-white">
-                                                                    {imageIndex === 0 ? activeItem.title : `Tư liệu ${activeItem.period} - ${imageIndex + 1}`}
-                                                                </p>
-                                                            </div>
+
                                                         </div>
                                                     ))}
                                                 </div>
