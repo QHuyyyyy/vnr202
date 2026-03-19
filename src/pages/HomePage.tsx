@@ -16,8 +16,9 @@ export function HomePage() {
                 <ContextSection />
                 <TimelineSection />
                 <RolesSection />
-                <VideoSection />
+
                 <ConclusionSection />
+                <VideoSection />
             </main>
             <Footer />
         </div>

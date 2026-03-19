@@ -23,7 +23,7 @@ export function VideoSection() {
                     <div className="relative w-full rounded-eight overflow-hidden shadow-2xl border border-dark/10" style={{ paddingBottom: "56.25%" }}>
                         <iframe
                             className="absolute left-0 top-0 h-full w-full"
-                            src="https://www.youtube.com/embed/BJKZDZh3HI8"
+                            src="https://firebasestorage.googleapis.com/v0/b/capstone-4a900.firebasestorage.app/o/Dinh%20%C4%90%E1%BB%99c%20L%E1%BA%ADp.mp4?alt=media&token=86faa86a-95bd-41da-a516-454013789835"
                             title="YouTube video"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
