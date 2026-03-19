@@ -26,6 +26,7 @@ const quizData = quizJson
 
 export function QuickQuiz() {
   const navigate = useNavigate()
+  const [quizSeed, setQuizSeed] = useState(0)
   const [playerName, setPlayerName] = useState('')
   const [nameInput, setNameInput] = useState('')
   const [isNameConfirmed, setIsNameConfirmed] = useState(false)
@@ -69,7 +70,7 @@ export function QuickQuiz() {
 
     // Shuffle questions and select up to 50
     return allQuestions.sort(() => Math.random() - 0.5).slice(0, 50)
-  }, [])
+  }, [quizSeed])
 
   useEffect(() => {
     const storedName = localStorage.getItem('quizPlayerName')
@@ -228,6 +229,24 @@ export function QuickQuiz() {
     setSelectedAnswer(null)
     setLastResult(null)
     setLastPenalty(null)
+  }
+
+  const handleReplay = () => {
+    setQuizSeed((prev) => prev + 1)
+    setCurrentIndex(0)
+    setPoints(30)
+    setAttempts(0)
+    setIsFinished(false)
+    setLastResult(null)
+    setLastPenalty(null)
+    setHasAnswered(false)
+    setSelectedAnswer(null)
+    setShowResultModal(false)
+    setStartTime(Date.now())
+    setElapsedTime(null)
+    setIsPosting(false)
+    setPostError(null)
+    setPosted(false)
   }
 
   const currentQuestion = questions[currentIndex]
@@ -464,6 +483,13 @@ export function QuickQuiz() {
                   <p className="text-sm font-medium text-red-600">{postError}</p>
                 )}
                 <div className="flex flex-col gap-3 sm:flex-row sm:justify-center mt-6">
+                  <button
+                    type="button"
+                    className="rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-[#1a201c] shadow-lg transition hover:bg-yellow-400"
+                    onClick={handleReplay}
+                  >
+                    Chơi lại
+                  </button>
                   <button
                     type="button"
                     className="rounded-xl border-2 border-primary/20 bg-white px-6 py-3.5 text-sm font-bold text-dark transition hover:border-primary/50"
