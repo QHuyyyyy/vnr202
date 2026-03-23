@@ -249,6 +249,11 @@ export function QuickQuiz() {
     setPosted(false)
   }
 
+  const handleRetryPost = async () => {
+    if (elapsedTime === null) return
+    await postResult(elapsedTime, attempts)
+  }
+
   const currentQuestion = questions[currentIndex]
   const hasCompletedAll = attempts >= questions.length && points > 0
 
@@ -482,28 +487,54 @@ export function QuickQuiz() {
                 {postError && (
                   <p className="text-sm font-medium text-red-600">{postError}</p>
                 )}
-                <div className="flex flex-col gap-3 sm:flex-row sm:justify-center mt-6">
-                  <button
-                    type="button"
-                    className="rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-[#1a201c] shadow-lg transition hover:bg-yellow-400"
-                    onClick={handleReplay}
-                  >
-                    Chơi lại
-                  </button>
-                  <button
-                    type="button"
-                    className="rounded-xl border-2 border-primary/20 bg-white px-6 py-3.5 text-sm font-bold text-dark transition hover:border-primary/50"
-                    onClick={() => setShowResultModal(false)}
-                  >
-                    Xem lại câu hỏi
-                  </button>
-                  <Link
-                    to="/ranking"
-                    className="rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-primary/90"
-                  >
-                    Xem bảng xếp hạng
-                  </Link>
-                </div>
+                {isPosting && (
+                  <div className="mt-6 flex flex-col items-center gap-3 rounded-2xl border border-primary/20 bg-primary/5 px-4 py-5">
+                    <div className="h-6 w-6 animate-spin rounded-full border-2 border-primary/30 border-t-primary" aria-hidden="true" />
+                    <p className="text-sm font-medium text-dark/70">Đang gửi kết quả lên server...</p>
+                  </div>
+                )}
+                {!isPosting && posted && (
+                  <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
+                    <button
+                      type="button"
+                      className="rounded-xl bg-accent px-6 py-3.5 text-sm font-bold text-[#1a201c] shadow-lg transition hover:bg-yellow-400"
+                      onClick={handleReplay}
+                    >
+                      Chơi lại
+                    </button>
+                    <button
+                      type="button"
+                      className="rounded-xl border-2 border-primary/20 bg-white px-6 py-3.5 text-sm font-bold text-dark transition hover:border-primary/50"
+                      onClick={() => setShowResultModal(false)}
+                    >
+                      Xem lại câu hỏi
+                    </button>
+                    <Link
+                      to="/ranking"
+                      className="rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-primary/90"
+                    >
+                      Xem bảng xếp hạng
+                    </Link>
+                  </div>
+                )}
+                {!isPosting && !posted && postError && (
+                  <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
+                    <button
+                      type="button"
+                      className="rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-primary/90"
+                      onClick={handleRetryPost}
+                    >
+                      Thử gửi lại
+                    </button>
+                    <button
+                      type="button"
+                      className="rounded-xl border-2 border-primary/20 bg-white px-6 py-3.5 text-sm font-bold text-dark transition hover:border-primary/50"
+                      onClick={handleReplay}
+                    >
+                      Chơi lại
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           )}

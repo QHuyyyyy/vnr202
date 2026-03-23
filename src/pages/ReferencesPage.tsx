@@ -167,6 +167,72 @@ export function ReferencesPage() {
                     </a>
                   </div>
                 </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://youtu.be/TnQYFiXX1Zg?si=nOP7ACDO_ASOBgLZ"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://youtu.be/TnQYFiXX1Zg?si=nOP7ACDO_ASOBgLZ
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://dinhdoclap.gov.vn/#"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://dinhdoclap.gov.vn/#
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://vtv.vn/chinh-tri/xe-tang-tien-vao-dinh-doc-lap-thoi-khac-hoa-binh-sau-21-nam-dat-nuoc-chia-cat-20250426221314741.htm"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://vtv.vn/chinh-tri/xe-tang-tien-vao-dinh-doc-lap-thoi-khac-hoa-binh-sau-21-nam-dat-nuoc-chia-cat-20250426221314741.htm
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://youtu.be/nYHJ0ahv96s"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://youtu.be/nYHJ0ahv96s
+                    </a>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-2xl border border-primary/15 bg-surface/60 p-4">
+
+                  <div className="flex min-w-0 flex-col">
+                    <p>Nguồn Nhạc</p>
+                    <a
+                      className="mt-1 break-all text-primary underline-offset-4 hover:underline decoration-primary/40"
+                      href="https://www.youtube.com/watch?v=pR06brbzXoA&list=RDpR06brbzXoA&start_radio=1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://www.youtube.com/watch?v=pR06brbzXoA&list=RDpR06brbzXoA&start_radio=1
+                    </a>
+                  </div>
+                </li>
               </ul>
             </div>
 
