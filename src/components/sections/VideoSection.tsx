@@ -9,7 +9,7 @@ export function VideoSection() {
                     <SectionHeading
                         centered
                         title="Tư Liệu Học Tập"
-                        subtitle="Video tham khảo về giai đoạn lịch sử 1930 - 1975"
+                        subtitle="Video tham khảo về Dinh Độc Lập"
                     />
                     <div className="mx-auto mt-6 h-1.5 w-24 bg-accent" />
                 </div>
