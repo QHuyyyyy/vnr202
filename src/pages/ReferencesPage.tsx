@@ -244,7 +244,7 @@ export function ReferencesPage() {
                     <div>
                       <p className="font-semibold text-dark">NotebookLM</p>
                       <p className="mt-1 text-sm text-dark/70">
-                        Tra cứu nội dung học phần Tư tưởng Hồ Chí Minh và tổng hợp ghi chú.
+                        Tra cứu nội dung học phần Lịch Sử Đảng và tổng hợp ghi chú.
                       </p>
                     </div>
                     <div className="flex items-center justify-center rounded-xl border border-dashed border-primary/50 bg-white/70 p-2 text-xs text-dark/40 shadow-sm shadow-primary/10">

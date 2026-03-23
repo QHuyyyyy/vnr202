@@ -85,7 +85,7 @@ Xuất hiện hình thức chính quyền cách mạng sơ khai của nhân dân
     },
     {
         period: '1939-1945',
-        title: 'Chuyển hướng và Tổng khởi nghĩa',
+        title: 'Chuyển hướng chiến lược cách mạng và Tổng khởi nghĩa',
         description:
             'Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu. Thành lập Mặt trận Việt Minh, xây dựng lực lượng vũ trang và tiến tới Tổng khởi nghĩa tháng 8/1945.',
         fullDescription: [

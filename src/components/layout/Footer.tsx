@@ -24,7 +24,7 @@ export function Footer() {
                 </div>
 
                 <p className="mt-8 text-xs text-gray-400">© 2026 Website Lịch Sử. Biên tập dựa trên tài liệu lịch sử chính thống.</p>
-                <p className="mt-8 text-xs text-gray-400">Tác giả: Nhóm ... gồm Minh Khoa, Quốc Huy, Tín Nghĩa, Huy Vũ, Hải Triều, Kim Hằng.</p>
+                <p className="mt-8 text-lg text-gray-700">Tác giả: Nhóm 5 gồm Minh Khoa, Quốc Huy, Tín Nghĩa, Huy Vũ, Hải Triều, Kim Hằng.</p>
             </div>
         </footer>
     )
